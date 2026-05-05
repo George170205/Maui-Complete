@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <RootNamespace>MauiApp1.IntegrationTests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="FluentAssertions" Version="6.12.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+    <PackageReference Include="coverlet.collector" Version="6.0.2" />
+    <PackageReference Include="Microsoft.Maui.Graphics" Version="9.0.0" />
+  </ItemGroup>
+
+  <!--
+    Los modelos enlazados (Materia) usan el tipo Color sin un using explícito
+    porque en el proyecto MAUI real UseMaui=true inyecta un global using para
+    Microsoft.Maui.Graphics. Aquí lo replicamos vía MSBuild para que compile
+    en net9.0 puro sin tocar los fuentes.
+  -->
+  <ItemGroup>
+    <Using Include="Microsoft.Maui.Graphics" />
+  </ItemGroup>
+
+  <!--
+    Copiamos los modelos del proyecto MAUI como Compile links (mismo truco que
+    UnitTests) para no arrastrar la SDK mobile y permitir correr en Linux/CI.
+  -->
+  <ItemGroup>
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\Alumno.cs" Link="Models\Alumno.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\AuditoriaDto.cs" Link="Models\AuditoriaDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\CalificacionDto.cs" Link="Models\CalificacionDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\DocenteDto.cs" Link="Models\DocenteDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\Grupo.cs" Link="Models\Grupo.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\HomeAlumnoDto.cs" Link="Models\HomeAlumnoDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\HorarioDto.cs" Link="Models\HorarioDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\ImportacionDto.cs" Link="Models\ImportacionDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\KardexDto.cs" Link="Models\KardexDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\LoginRequest.cs" Link="Models\LoginRequest.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\LoginResponse.cs" Link="Models\LoginResponse.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\Materia.cs" Link="Models\Materia.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\ProximaAsistenciaDto.cs" Link="Models\ProximaAsistenciaDto.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\QrDtos.cs" Link="Models\QrDtos.cs" />
+    <Compile Include="..\..\MauiApp1\MauiApp1\src\Core\Models\RegisterRequest.cs" Link="Models\RegisterRequest.cs" />
+  </ItemGroup>
+
+</Project>

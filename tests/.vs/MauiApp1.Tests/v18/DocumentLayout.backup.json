@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abel\\Source\\Repos\\tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj|c:\\users\\abel\\source\\repos\\tests\\mauiapp1.unittests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj|solutionrelative:mauiapp1.unittests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj|c:\\users\\abel\\source\\repos\\tests\\mauiapp1.unittests\\mauiapp1.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj|solutionrelative:mauiapp1.unittests\\mauiapp1.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Abel\\Source\\Repos\\tests\\MauiApp1.UnitTests\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "MauiApp1.UnitTests\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Abel\\Source\\Repos\\tests\\MauiApp1.UnitTests\\GlobalUsings.cs",
+              "RelativeToolTip": "MauiApp1.UnitTests\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T19:33:50.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiApp1.UnitTests",
+              "DocumentMoniker": "C:\\Users\\Abel\\Source\\Repos\\tests\\MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj",
+              "RelativeDocumentMoniker": "MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj",
+              "ToolTip": "C:\\Users\\Abel\\Source\\Repos\\tests\\MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj",
+              "RelativeToolTip": "MauiApp1.UnitTests\\MauiApp1.UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T19:33:33.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

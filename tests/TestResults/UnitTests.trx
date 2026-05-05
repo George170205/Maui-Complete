@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a770bf7b-2ed2-4f2b-8e66-51a645424f56" name="Abel@ABELRAMIREZ 2026-04-21 13:54:04" runUser="ABELRAMIREZ\Abel" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-04-21T13:54:04.4893712-07:00" queuing="2026-04-21T13:54:04.4893718-07:00" start="2026-04-21T13:54:03.0339945-07:00" finish="2026-04-21T13:54:04.8082230-07:00" />
+  <TestSettings name="default" id="3f3bbccd-193c-4340-a325-4df821ebbc23">
+    <Deployment runDeploymentRoot="Abel_ABELRAMIREZ_2026-04-21_13_54_04" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fc6a8480-b600-4718-9144-2b33b89d05f6" testId="46577491-c79f-ef78-f0cd-c3d43dd650fc" testName="Iniciales: devuelve primera letra mayúscula si hay una palabra(nombre: &quot;matematicas&quot;, expected: &quot;M&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000090" startTime="2026-04-21T13:54:04.4680567-07:00" endTime="2026-04-21T13:54:04.4680567-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc6a8480-b600-4718-9144-2b33b89d05f6" />
+    <UnitTestResult executionId="1af5096e-53f3-42b2-80d6-93793427f24e" testId="0f6e7c1f-5dfe-5d0b-224a-bdb1653e4fbf" testName="HomeAlumnoDto: deserializa payload completo" computerName="ABELRAMIREZ" duration="00:00:00.0158661" startTime="2026-04-21T13:54:04.4996834-07:00" endTime="2026-04-21T13:54:04.4996835-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1af5096e-53f3-42b2-80d6-93793427f24e" />
+    <UnitTestResult executionId="5d18fee2-bfd6-4f0a-9719-e48e85c17c69" testId="aec8335c-7699-4d06-d7f7-b106e8984b45" testName="Alumno: nuevas instancias tienen valores por defecto correctos" computerName="ABELRAMIREZ" duration="00:00:00.0004283" startTime="2026-04-21T13:54:04.4752246-07:00" endTime="2026-04-21T13:54:04.4752246-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d18fee2-bfd6-4f0a-9719-e48e85c17c69" />
+    <UnitTestResult executionId="0942e6c9-d747-4712-93fc-c878ffaaea57" testId="d80cf292-3e2e-8436-9395-9472c598db1d" testName="Alumno: acepta IDs positivos arbitrarios(id: 999)" computerName="ABELRAMIREZ" duration="00:00:00.0193259" startTime="2026-04-21T13:54:04.4587132-07:00" endTime="2026-04-21T13:54:04.4587133-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0942e6c9-d747-4712-93fc-c878ffaaea57" />
+    <UnitTestResult executionId="52b3847f-3c28-4e91-8fb0-6cf37ddfa7bb" testId="0774e5b1-0cfa-45a6-2f31-4116ecaf0aaa" testName="Iniciales: devuelve primera letra mayúscula si hay una palabra(nombre: &quot;QUIMICA&quot;, expected: &quot;Q&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0002122" startTime="2026-04-21T13:54:04.4585413-07:00" endTime="2026-04-21T13:54:04.4585414-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52b3847f-3c28-4e91-8fb0-6cf37ddfa7bb" />
+    <UnitTestResult executionId="ba9be901-ab54-4c2f-8291-28335056704d" testId="fdb837ae-3f4b-2b3a-1b0d-8c202392c6f8" testName="RegisterRequest: valores por defecto son cadenas vacías" computerName="ABELRAMIREZ" duration="00:00:00.0004964" startTime="2026-04-21T13:54:04.4972625-07:00" endTime="2026-04-21T13:54:04.4972627-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba9be901-ab54-4c2f-8291-28335056704d" />
+    <UnitTestResult executionId="b21c0609-0ef9-421b-8696-0d0852fd7083" testId="b3470aa1-cf0c-cba8-4017-d841bb58fddf" testName="ClaseInfo.Iniciales: un nombre =&gt; 1 letra; varias =&gt; 2 letras(nombre: &quot;algoritmos estructuras datos&quot;, expected: &quot;AE&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000071" startTime="2026-04-21T13:54:04.4764770-07:00" endTime="2026-04-21T13:54:04.4764771-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b21c0609-0ef9-421b-8696-0d0852fd7083" />
+    <UnitTestResult executionId="0afee0c0-f9c7-4994-8774-b13fffa8936b" testId="76835308-1d01-62b1-e97a-4890b0518908" testName="Email: rechaza formatos inválidos(email: &quot;espacios en @ email.com&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0140028" startTime="2026-04-21T13:54:04.4918848-07:00" endTime="2026-04-21T13:54:04.4918849-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0afee0c0-f9c7-4994-8774-b13fffa8936b" />
+    <UnitTestResult executionId="d8a7952f-254d-4f9d-b98a-c1a0f3e12d0b" testId="c9805f89-3c48-c001-afba-7306b779f685" testName="CalificacionDto: deserializa con porcentaje opcional" computerName="ABELRAMIREZ" duration="00:00:00.0198366" startTime="2026-04-21T13:54:04.4947094-07:00" endTime="2026-04-21T13:54:04.4947095-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8a7952f-254d-4f9d-b98a-c1a0f3e12d0b" />
+    <UnitTestResult executionId="9edd14c9-0894-4925-b3d4-6895ef1d2008" testId="5cd80abc-84c5-9bc3-305b-5aa9f1bad6c7" testName="ClaseInfo.Iniciales: un nombre =&gt; 1 letra; varias =&gt; 2 letras(nombre: &quot;Algebra&quot;, expected: &quot;A&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0232979" startTime="2026-04-21T13:54:04.4759927-07:00" endTime="2026-04-21T13:54:04.4759928-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9edd14c9-0894-4925-b3d4-6895ef1d2008" />
+    <UnitTestResult executionId="ce2c0d72-efa8-4252-babe-4e00184a9c57" testId="30fbf1c7-29f8-a75e-66d5-e6309200ecc9" testName="LoginResponse: valores por defecto son seguros" computerName="ABELRAMIREZ" duration="00:00:00.0002173" startTime="2026-04-21T13:54:04.4962931-07:00" endTime="2026-04-21T13:54:04.4962932-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce2c0d72-efa8-4252-babe-4e00184a9c57" />
+    <UnitTestResult executionId="a97ad6f5-425b-41e3-af5b-f481a7f4ec18" testId="1b65c132-2caa-4555-4aca-23ce1e00d49d" testName="KardexItemDto: deserializa cálculo de % de asistencia" computerName="ABELRAMIREZ" duration="00:00:00.0264939" startTime="2026-04-21T13:54:04.4951736-07:00" endTime="2026-04-21T13:54:04.4951736-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a97ad6f5-425b-41e3-af5b-f481a7f4ec18" />
+    <UnitTestResult executionId="bbaee537-7954-4590-ae87-1be46f91a053" testId="2c02f833-1350-e014-468a-25a6c39ce659" testName="Alumno: propiedades se asignan correctamente" computerName="ABELRAMIREZ" duration="00:00:00.0009977" startTime="2026-04-21T13:54:04.4748452-07:00" endTime="2026-04-21T13:54:04.4748452-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbaee537-7954-4590-ae87-1be46f91a053" />
+    <UnitTestResult executionId="94d328d8-da72-43e2-b09d-c4c2409e584a" testId="da6b7133-e796-a253-e205-2a70c0ba4e27" testName="DocenteDto: deserializa lista de docentes" computerName="ABELRAMIREZ" duration="00:00:00.0491287" startTime="2026-04-21T13:54:04.4952883-07:00" endTime="2026-04-21T13:54:04.4952884-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94d328d8-da72-43e2-b09d-c4c2409e584a" />
+    <UnitTestResult executionId="8b792bf2-5594-407f-9d6a-5b4a1e6ce3c4" testId="69f470fb-5a42-2a19-383d-5cec624d2381" testName="ImportUsuarioRow: admite los 3 roles válidos(r: 2)" computerName="ABELRAMIREZ" duration="00:00:00.0001796" startTime="2026-04-21T13:54:04.4909518-07:00" endTime="2026-04-21T13:54:04.4909518-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b792bf2-5594-407f-9d6a-5b4a1e6ce3c4" />
+    <UnitTestResult executionId="ea150911-b4a9-4854-bc37-6b60874d9c21" testId="12774760-d410-e386-a04a-9c78b8c62197" testName="LoginRequest: asigna Email y Password" computerName="ABELRAMIREZ" duration="00:00:00.0003207" startTime="2026-04-21T13:54:04.4975424-07:00" endTime="2026-04-21T13:54:04.4975425-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea150911-b4a9-4854-bc37-6b60874d9c21" />
+    <UnitTestResult executionId="71ed1361-bf00-41a6-9275-97069b3eddd8" testId="4bf3c61c-9dce-c1fc-cfbe-fd23899f7af6" testName="Materia: valores por defecto correctos" computerName="ABELRAMIREZ" duration="00:00:00.0006512" startTime="2026-04-21T13:54:04.4979910-07:00" endTime="2026-04-21T13:54:04.4979911-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71ed1361-bf00-41a6-9275-97069b3eddd8" />
+    <UnitTestResult executionId="222781ce-a765-42fc-a4df-3e84e16c6933" testId="f82c7a03-bb6c-430b-1cd0-c429fd3f5acb" testName="ImportResultDto: deserializa resultado con errores" computerName="ABELRAMIREZ" duration="00:00:00.0167029" startTime="2026-04-21T13:54:04.4945692-07:00" endTime="2026-04-21T13:54:04.4945693-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="222781ce-a765-42fc-a4df-3e84e16c6933" />
+    <UnitTestResult executionId="aee539c9-4e73-4224-8d0c-83b5adb5a7b4" testId="1b44fc17-5fcc-2e78-be56-05652f4950d1" testName="ImportUsuarioRow: admite los 3 roles válidos(r: 3)" computerName="ABELRAMIREZ" duration="00:00:00.0000041" startTime="2026-04-21T13:54:04.4911524-07:00" endTime="2026-04-21T13:54:04.4911525-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aee539c9-4e73-4224-8d0c-83b5adb5a7b4" />
+    <UnitTestResult executionId="a00ef1fe-a666-4485-85e5-0c9dea420c32" testId="49221ccf-cd88-ccff-e988-bbfe224ea3aa" testName="Password: mínimo 6 chars(pwd: &quot;12345&quot;, valid: False)" computerName="ABELRAMIREZ" duration="00:00:00.0172229" startTime="2026-04-21T13:54:04.4735218-07:00" endTime="2026-04-21T13:54:04.4735219-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a00ef1fe-a666-4485-85e5-0c9dea420c32" />
+    <UnitTestResult executionId="d883738c-49f2-4b63-93b6-e32d37428b53" testId="0c32420f-bf9f-893a-9fe1-2c71ba36d106" testName="InscripcionDto: defaults" computerName="ABELRAMIREZ" duration="00:00:00.0190053" startTime="2026-04-21T13:54:04.4753981-07:00" endTime="2026-04-21T13:54:04.4753982-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d883738c-49f2-4b63-93b6-e32d37428b53" />
+    <UnitTestResult executionId="40f1883c-3b48-497e-a573-ed0f2f759a36" testId="b25679a3-47ae-f166-6a7b-601012803490" testName="Iniciales: retorna cadena vacía cuando Nombre es nulo o blanco(nombre: &quot;   &quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0001202" startTime="2026-04-21T13:54:04.4700280-07:00" endTime="2026-04-21T13:54:04.4700281-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40f1883c-3b48-497e-a573-ed0f2f759a36" />
+    <UnitTestResult executionId="0dd24c49-9c18-4f2f-ba05-196eb461c788" testId="6db31d0c-920a-4f03-44d7-13430c7d7d9c" testName="HorarioDto: DiaSemana entre 1-7(dia: 3)" computerName="ABELRAMIREZ" duration="00:00:00.0245640" startTime="2026-04-21T13:54:04.4774431-07:00" endTime="2026-04-21T13:54:04.4774432-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dd24c49-9c18-4f2f-ba05-196eb461c788" />
+    <UnitTestResult executionId="97ac6579-b1dd-419d-ae6b-492ff9ae4c85" testId="6829f8f6-aa4c-6272-50f1-b91c4e1987c7" testName="Email: rechaza formatos inválidos(email: &quot;sin-arroba&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000071" startTime="2026-04-21T13:54:04.4925923-07:00" endTime="2026-04-21T13:54:04.4925924-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97ac6579-b1dd-419d-ae6b-492ff9ae4c85" />
+    <UnitTestResult executionId="d0d6b80a-398c-4d95-a37c-5064f92625b1" testId="dc714b5b-44e3-1b29-e740-fed9e2aa2925" testName="ImportUsuarioRow: record acepta telefono y password opcionales" computerName="ABELRAMIREZ" duration="00:00:00.0193413" startTime="2026-04-21T13:54:04.4570532-07:00" endTime="2026-04-21T13:54:04.4570534-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0d6b80a-398c-4d95-a37c-5064f92625b1" />
+    <UnitTestResult executionId="ae963e17-33b1-484c-b8bc-c97983d2e307" testId="7df0974e-932f-c729-896d-d7eb136d6f52" testName="HomeAlumnoDto: defaults de colecciones no son null" computerName="ABELRAMIREZ" duration="00:00:00.0410019" startTime="2026-04-21T13:54:04.4939609-07:00" endTime="2026-04-21T13:54:04.4939609-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae963e17-33b1-484c-b8bc-c97983d2e307" />
+    <UnitTestResult executionId="3e918a17-4c5a-4b78-a78f-c8b3a9b11ad5" testId="48761fff-3c90-2b77-956e-761c3f240150" testName="Email: acepta formatos válidos(email: &quot;nombre.apellido+tag@dominio.co&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0001152" startTime="2026-04-21T13:54:04.4935658-07:00" endTime="2026-04-21T13:54:04.4935659-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e918a17-4c5a-4b78-a78f-c8b3a9b11ad5" />
+    <UnitTestResult executionId="300d71d9-97b2-4f8a-aa2e-c2d9a9e73e4d" testId="d650bf7a-7759-9bcd-70be-1f134c918202" testName="Alumno: acepta IDs positivos arbitrarios(id: 1)" computerName="ABELRAMIREZ" duration="00:00:00.0001885" startTime="2026-04-21T13:54:04.4689379-07:00" endTime="2026-04-21T13:54:04.4689380-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="300d71d9-97b2-4f8a-aa2e-c2d9a9e73e4d" />
+    <UnitTestResult executionId="40cf7e38-70f2-4546-862c-b835d6d7f617" testId="defb5946-a15c-bd13-bb36-2a3e14740ce8" testName="Grupo: defaults conformes al contrato del backend" computerName="ABELRAMIREZ" duration="00:00:00.0003356" startTime="2026-04-21T13:54:04.4995580-07:00" endTime="2026-04-21T13:54:04.4995580-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40cf7e38-70f2-4546-862c-b835d6d7f617" />
+    <UnitTestResult executionId="e608e9c8-08a6-4a79-a226-886c87048afb" testId="724f0a30-4cf7-ca08-04df-0927d064c22f" testName="ImportUsuarioRow: admite los 3 roles válidos(r: 1)" computerName="ABELRAMIREZ" duration="00:00:00.0001364" startTime="2026-04-21T13:54:04.4907219-07:00" endTime="2026-04-21T13:54:04.4907220-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e608e9c8-08a6-4a79-a226-886c87048afb" />
+    <UnitTestResult executionId="407dd468-bad2-4029-946e-bdd3b3a9d89e" testId="9df09752-6f0e-7a53-e16e-afe4dee6a881" testName="GenerarQrRequest: duración puede ser null" computerName="ABELRAMIREZ" duration="00:00:00.0005892" startTime="2026-04-21T13:54:04.4732173-07:00" endTime="2026-04-21T13:54:04.4732174-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="407dd468-bad2-4029-946e-bdd3b3a9d89e" />
+    <UnitTestResult executionId="1a69b87a-0a04-4375-a26a-556928e475a4" testId="5a8fb407-e4e2-c5ff-c753-4551c2a58829" testName="GenerarQrRequest: record mantiene sus valores y es comparable por igualdad" computerName="ABELRAMIREZ" duration="00:00:00.0021602" startTime="2026-04-21T13:54:04.4767898-07:00" endTime="2026-04-21T13:54:04.4767900-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a69b87a-0a04-4375-a26a-556928e475a4" />
+    <UnitTestResult executionId="973eaea6-d1f3-418d-b4e6-81c0b4718e4f" testId="8f2c9e04-d223-1738-9208-054753c638ec" testName="CalificacionBulkItemDto: PuntosMaximos default 10 y TipoEvaluacion 'Final'" computerName="ABELRAMIREZ" duration="00:00:00.0259108" startTime="2026-04-21T13:54:04.4902434-07:00" endTime="2026-04-21T13:54:04.4902435-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="973eaea6-d1f3-418d-b4e6-81c0b4718e4f" />
+    <UnitTestResult executionId="8898c0ff-dc68-4552-84cc-9b847f77adb6" testId="dde88a9e-f011-4397-9a65-83d3d5a19ee9" testName="ProximaAsistenciaDto: deserializa sesión con flag YaRegistrada" computerName="ABELRAMIREZ" duration="00:00:00.0077397" startTime="2026-04-21T13:54:04.4998294-07:00" endTime="2026-04-21T13:54:04.4998295-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8898c0ff-dc68-4552-84cc-9b847f77adb6" />
+    <UnitTestResult executionId="ae0948ec-9292-45dd-88e0-586d5d9fea19" testId="83e3a168-af78-8260-3040-229d867a093a" testName="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;programacion movil&quot;, expected: &quot;PM&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000051" startTime="2026-04-21T13:54:04.4727187-07:00" endTime="2026-04-21T13:54:04.4727188-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae0948ec-9292-45dd-88e0-586d5d9fea19" />
+    <UnitTestResult executionId="491289ac-3077-4ce6-b21a-b8d9ed923379" testId="52b5a687-8c5d-2cf6-ad1b-e56101909ba8" testName="CalificacionBulkDto: serializa correctamente la lista" computerName="ABELRAMIREZ" duration="00:00:00.0062633" startTime="2026-04-21T13:54:04.4978745-07:00" endTime="2026-04-21T13:54:04.4978745-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="491289ac-3077-4ce6-b21a-b8d9ed923379" />
+    <UnitTestResult executionId="7a332415-c84f-4cf3-a5b7-e08d08faf37d" testId="6bfd7885-f9fd-4ebc-0251-ad6089318f4e" testName="Password: mínimo 6 chars(pwd: &quot;abcdef&quot;, valid: True)" computerName="ABELRAMIREZ" duration="00:00:00.0000090" startTime="2026-04-21T13:54:04.4746175-07:00" endTime="2026-04-21T13:54:04.4746175-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a332415-c84f-4cf3-a5b7-e08d08faf37d" />
+    <UnitTestResult executionId="af3cda01-cdd7-4461-a169-4e59b10ebf54" testId="9a5f98db-7aa7-150f-03e8-f825299d2c5c" testName="HorarioDto: DiaSemana entre 1-7(dia: 1)" computerName="ABELRAMIREZ" duration="00:00:00.0000074" startTime="2026-04-21T13:54:04.4898093-07:00" endTime="2026-04-21T13:54:04.4898095-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af3cda01-cdd7-4461-a169-4e59b10ebf54" />
+    <UnitTestResult executionId="81b2d5a8-f4f7-4314-87ef-8ebc835bfe8e" testId="ee21f0b6-c4bc-c1f2-f306-c191aeadf3fa" testName="KardexItemDto: admite calificación nula (materia en curso)" computerName="ABELRAMIREZ" duration="00:00:00.0179857" startTime="2026-04-21T13:54:04.4723492-07:00" endTime="2026-04-21T13:54:04.4723493-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81b2d5a8-f4f7-4314-87ef-8ebc835bfe8e" />
+    <UnitTestResult executionId="31e0d332-a2c1-462f-b8ce-193c3f12bcec" testId="8079eacd-89c5-85db-31ba-528f3f56628f" testName="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;sistemas  operativos&quot;, expected: &quot;SO&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000050" startTime="2026-04-21T13:54:04.4729777-07:00" endTime="2026-04-21T13:54:04.4729777-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31e0d332-a2c1-462f-b8ce-193c3f12bcec" />
+    <UnitTestResult executionId="80f8bcf9-b765-4b5b-aa09-be2f5198901a" testId="9ba0685e-c3b9-4d28-d8dd-6a9e35534cf7" testName="ClaseInfo.Iniciales: vacío si nombre es nulo/blanco" computerName="ABELRAMIREZ" duration="00:00:00.0001377" startTime="2026-04-21T13:54:04.4772994-07:00" endTime="2026-04-21T13:54:04.4772995-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80f8bcf9-b765-4b5b-aa09-be2f5198901a" />
+    <UnitTestResult executionId="cc0f0d57-78d8-4a74-aa7e-e0d5efc141f6" testId="b845055d-98b4-fa3b-617b-be3be3162777" testName="HorarioDto: DiaSemana entre 1-7(dia: 7)" computerName="ABELRAMIREZ" duration="00:00:00.0002307" startTime="2026-04-21T13:54:04.4776784-07:00" endTime="2026-04-21T13:54:04.4776784-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc0f0d57-78d8-4a74-aa7e-e0d5efc141f6" />
+    <UnitTestResult executionId="924b7418-d208-4fc2-8a27-00888615f28c" testId="5afcb854-2d1a-2b61-bbe5-e6fdcd00fae7" testName="RegisterRequest: soporta los 3 roles definidos(rol: 3)" computerName="ABELRAMIREZ" duration="00:00:00.0000044" startTime="2026-04-21T13:54:04.4969758-07:00" endTime="2026-04-21T13:54:04.4969759-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="924b7418-d208-4fc2-8a27-00888615f28c" />
+    <UnitTestResult executionId="64eb6fff-a43a-48a7-a894-d4c23fb8dc10" testId="ada45cdc-3232-9cae-cdcd-e455d262f0fc" testName="Password: mínimo 6 chars(pwd: &quot;Secreto1!&quot;, valid: True)" computerName="ABELRAMIREZ" duration="00:00:00.0002404" startTime="2026-04-21T13:54:04.4743865-07:00" endTime="2026-04-21T13:54:04.4743866-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64eb6fff-a43a-48a7-a894-d4c23fb8dc10" />
+    <UnitTestResult executionId="9d46993a-5ed6-475b-91cb-1fe44ffef314" testId="43c3d415-e195-5c22-43ee-275a50c5419b" testName="LoginResponse: deserializa payload real del backend" computerName="ABELRAMIREZ" duration="00:00:00.0499264" startTime="2026-04-21T13:54:04.4957270-07:00" endTime="2026-04-21T13:54:04.4957271-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d46993a-5ed6-475b-91cb-1fe44ffef314" />
+    <UnitTestResult executionId="25757da3-cd65-4911-b758-691e16b92a02" testId="225ccd48-d47a-761f-aaa6-ee7d4be47b86" testName="Iniciales: devuelve primera letra mayúscula si hay una palabra(nombre: &quot;fisica&quot;, expected: &quot;F&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0186430" startTime="2026-04-21T13:54:04.4478906-07:00" endTime="2026-04-21T13:54:04.4479143-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25757da3-cd65-4911-b758-691e16b92a02" />
+    <UnitTestResult executionId="9d6baab6-1a60-4e26-a620-2f29dfba93ff" testId="2d6124fd-0307-9a24-1eb7-23279b4c0601" testName="Email: rechaza formatos inválidos(email: &quot;@sin-local.com&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0001655" startTime="2026-04-21T13:54:04.4922658-07:00" endTime="2026-04-21T13:54:04.4922659-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d6baab6-1a60-4e26-a620-2f29dfba93ff" />
+    <UnitTestResult executionId="934a6680-91b9-417e-910c-50eba2a02ee2" testId="e3d67a1a-3990-cf07-898c-43bd8477043a" testName="Iniciales: retorna cadena vacía cuando Nombre es nulo o blanco(nombre: &quot;&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000088" startTime="2026-04-21T13:54:04.4702738-07:00" endTime="2026-04-21T13:54:04.4702738-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="934a6680-91b9-417e-910c-50eba2a02ee2" />
+    <UnitTestResult executionId="3576cd5c-fbbb-4e1f-978a-bb0ca5a03811" testId="bd631166-46c9-f209-2a76-6b4c4f64e063" testName="CalificacionUpsertDto: record mantiene los valores" computerName="ABELRAMIREZ" duration="00:00:00.0004322" startTime="2026-04-21T13:54:04.4949569-07:00" endTime="2026-04-21T13:54:04.4949570-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3576cd5c-fbbb-4e1f-978a-bb0ca5a03811" />
+    <UnitTestResult executionId="c8fc9bec-cbab-4e6c-831b-bd44db675ad0" testId="253e3900-c1c5-10a2-51df-5d6a16cd06c6" testName="Materia: deserializa correctamente JSON del backend" computerName="ABELRAMIREZ" duration="00:00:00.0310887" startTime="2026-04-21T13:54:04.4976599-07:00" endTime="2026-04-21T13:54:04.4976600-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8fc9bec-cbab-4e6c-831b-bd44db675ad0" />
+    <UnitTestResult executionId="820e8050-402c-4d0a-a81d-cbe76268f752" testId="53368375-4fad-92a0-590b-c055006d1479" testName="Email: rechaza formatos inválidos(email: &quot;&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000022" startTime="2026-04-21T13:54:04.4929223-07:00" endTime="2026-04-21T13:54:04.4929224-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="820e8050-402c-4d0a-a81d-cbe76268f752" />
+    <UnitTestResult executionId="9f17986e-8c9c-40b0-90a8-12f43558a283" testId="d4d09110-d821-9a90-c924-5b79cd1f06ba" testName="ClaseInfo.Iniciales: un nombre =&gt; 1 letra; varias =&gt; 2 letras(nombre: &quot;sistemas operativos&quot;, expected: &quot;SO&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0001827" startTime="2026-04-21T13:54:04.4762313-07:00" endTime="2026-04-21T13:54:04.4762313-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f17986e-8c9c-40b0-90a8-12f43558a283" />
+    <UnitTestResult executionId="b9c96ff5-eaf4-4504-9511-04466dcd8b9b" testId="e7f9d933-9bca-0cf2-04a8-6fea0066a55b" testName="ValidarQrResponse: valores por defecto seguros" computerName="ABELRAMIREZ" duration="00:00:00.0002084" startTime="2026-04-21T13:54:04.4741413-07:00" endTime="2026-04-21T13:54:04.4741414-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9c96ff5-eaf4-4504-9511-04466dcd8b9b" />
+    <UnitTestResult executionId="2b441ff7-f6aa-4a56-b757-fc9d72b80a2d" testId="594e3bee-56b4-5b2f-c55a-e483cb8b3d06" testName="ValidarQrRequest: record con lat/long opcionales" computerName="ABELRAMIREZ" duration="00:00:00.0201849" startTime="2026-04-21T13:54:04.4687937-07:00" endTime="2026-04-21T13:54:04.4687938-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b441ff7-f6aa-4a56-b757-fc9d72b80a2d" />
+    <UnitTestResult executionId="7343cdd1-80df-425e-b285-20bd3f291eaa" testId="cdc100bf-8043-948f-0002-08c9af7c67f1" testName="RegisterRequest: soporta los 3 roles definidos(rol: 2)" computerName="ABELRAMIREZ" duration="00:00:00.0001740" startTime="2026-04-21T13:54:04.4965199-07:00" endTime="2026-04-21T13:54:04.4965200-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7343cdd1-80df-425e-b285-20bd3f291eaa" />
+    <UnitTestResult executionId="5ef96076-1af8-4551-9cd4-adabd1076622" testId="76c95d2b-de83-d285-0c8b-776db8b42f8f" testName="ImportResultDto: defaults sanos" computerName="ABELRAMIREZ" duration="00:00:00.0062132" startTime="2026-04-21T13:54:04.4904896-07:00" endTime="2026-04-21T13:54:04.4904897-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ef96076-1af8-4551-9cd4-adabd1076622" />
+    <UnitTestResult executionId="b25ebcb2-e748-4926-8397-639e2a8ff95d" testId="6e07d384-9a2b-7a7e-b3aa-89be43d2cf3b" testName="EventoAuditoriaDto: Meta puede ser null" computerName="ABELRAMIREZ" duration="00:00:00.0001220" startTime="2026-04-21T13:54:04.4988950-07:00" endTime="2026-04-21T13:54:04.4988953-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b25ebcb2-e748-4926-8397-639e2a8ff95d" />
+    <UnitTestResult executionId="873b5158-c53c-494e-bf2f-13c84405ae9c" testId="181e95ca-dc74-5738-7c9f-92af70e95193" testName="ClaseInfo: acepta porcentaje en rango 0-100" computerName="ABELRAMIREZ" duration="00:00:00.0004830" startTime="2026-04-21T13:54:04.4770418-07:00" endTime="2026-04-21T13:54:04.4770419-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="873b5158-c53c-494e-bf2f-13c84405ae9c" />
+    <UnitTestResult executionId="dfe9eaa3-e007-4c1a-bd18-6fdf7e085c93" testId="83e44640-ec9d-1978-6aea-287659bf5259" testName="Iniciales: retorna cadena vacía cuando Nombre es nulo o blanco(nombre: null)" computerName="ABELRAMIREZ" duration="00:00:00.0001338" startTime="2026-04-21T13:54:04.4697644-07:00" endTime="2026-04-21T13:54:04.4697644-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfe9eaa3-e007-4c1a-bd18-6fdf7e085c93" />
+    <UnitTestResult executionId="077d890d-e715-4e40-9330-751cb5ed45da" testId="afc56c6f-69ec-1a38-8aa5-7ce847530f57" testName="Alumno: acepta IDs positivos arbitrarios(id: 2147483647)" computerName="ABELRAMIREZ" duration="00:00:00.0000056" startTime="2026-04-21T13:54:04.4693487-07:00" endTime="2026-04-21T13:54:04.4693488-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="077d890d-e715-4e40-9330-751cb5ed45da" />
+    <UnitTestResult executionId="587d452c-b776-4266-85b6-3f3dbb120dee" testId="e2a6229b-32f7-630a-3acd-0fedb81443ce" testName="HorarioDto: deserializa fila de horario semanal" computerName="ABELRAMIREZ" duration="00:00:00.0333892" startTime="2026-04-21T13:54:04.5000351-07:00" endTime="2026-04-21T13:54:04.5000351-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="587d452c-b776-4266-85b6-3f3dbb120dee" />
+    <UnitTestResult executionId="95652a9e-9602-44a0-b045-fee616d7b817" testId="481d7624-d287-48fc-d137-7e19c07a1341" testName="RegisterRequest: soporta los 3 roles definidos(rol: 1)" computerName="ABELRAMIREZ" duration="00:00:00.0001742" startTime="2026-04-21T13:54:04.4967495-07:00" endTime="2026-04-21T13:54:04.4967496-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95652a9e-9602-44a0-b045-fee616d7b817" />
+    <UnitTestResult executionId="56b9ba9b-6b21-4811-94d4-32d619bc447d" testId="e73f5492-980b-3ede-c9da-ef07a0aca073" testName="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;ingenieria de software&quot;, expected: &quot;ID&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0001405" startTime="2026-04-21T13:54:04.4722200-07:00" endTime="2026-04-21T13:54:04.4722201-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56b9ba9b-6b21-4811-94d4-32d619bc447d" />
+    <UnitTestResult executionId="0e150637-f6ed-4e97-bf5e-cf85f2dc2683" testId="cc1a7057-f3ff-79b8-d384-a64a55074e47" testName="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;Base de Datos&quot;, expected: &quot;BD&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0001205" startTime="2026-04-21T13:54:04.4719498-07:00" endTime="2026-04-21T13:54:04.4719500-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e150637-f6ed-4e97-bf5e-cf85f2dc2683" />
+    <UnitTestResult executionId="09e690ed-71e8-4b15-8cda-08c4f3009217" testId="ebedaef8-d529-7ac5-f33a-0cdbd01c134e" testName="ProximaAsistenciaDto: default YaRegistrada = false" computerName="ABELRAMIREZ" duration="00:00:00.0002549" startTime="2026-04-21T13:54:04.4954982-07:00" endTime="2026-04-21T13:54:04.4954983-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09e690ed-71e8-4b15-8cda-08c4f3009217" />
+    <UnitTestResult executionId="5b875e3b-ab52-4621-bd90-b9cecb53c3f7" testId="d3d45b29-c5d8-9c33-bacc-6f4374b058d2" testName="Email: acepta formatos válidos(email: &quot;a@b.com&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0001151" startTime="2026-04-21T13:54:04.4933586-07:00" endTime="2026-04-21T13:54:04.4933587-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b875e3b-ab52-4621-bd90-b9cecb53c3f7" />
+    <UnitTestResult executionId="77ee076c-0133-408a-ab3c-b4eb07c51934" testId="960caeb2-61b6-d340-ba7e-a7b84d99c931" testName="Grupo: deserializa JSON con Materia anidada" computerName="ABELRAMIREZ" duration="00:00:00.0330038" startTime="2026-04-21T13:54:04.4993054-07:00" endTime="2026-04-21T13:54:04.4993055-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77ee076c-0133-408a-ab3c-b4eb07c51934" />
+    <UnitTestResult executionId="6ce09dd1-46db-4f99-8735-329f8886e492" testId="38a571bf-d66c-71ee-c480-5f94782cffa3" testName="EventoAuditoriaDto: deserializa evento completo" computerName="ABELRAMIREZ" duration="00:00:00.0542962" startTime="2026-04-21T13:54:04.4981029-07:00" endTime="2026-04-21T13:54:04.4981029-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ce09dd1-46db-4f99-8735-329f8886e492" />
+    <UnitTestResult executionId="157c7f2a-e081-4555-ab97-73c3bd5c289d" testId="56ab1078-0fdb-da1c-be07-58ba72bc997e" testName="Email: rechaza formatos inválidos(email: &quot;sin@dominio&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000022" startTime="2026-04-21T13:54:04.4931431-07:00" endTime="2026-04-21T13:54:04.4931432-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="157c7f2a-e081-4555-ab97-73c3bd5c289d" />
+    <UnitTestResult executionId="fcfa8271-5883-44c7-9469-8950aecc6a01" testId="67e169b1-5b87-efda-159d-2d095c2d12cd" testName="GenerarQrResponse: expira en el futuro" computerName="ABELRAMIREZ" duration="00:00:00.0014713" startTime="2026-04-21T13:54:04.4901277-07:00" endTime="2026-04-21T13:54:04.4901278-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcfa8271-5883-44c7-9469-8950aecc6a01" />
+    <UnitTestResult executionId="b2d8f0a0-828b-4e68-9e15-749f963d8b6e" testId="bb17c360-adca-7785-7874-ac1ac2af74e9" testName="Email: acepta formatos válidos(email: &quot;alumno@escuela.edu.mx&quot;)" computerName="ABELRAMIREZ" duration="00:00:00.0000037" startTime="2026-04-21T13:54:04.4938351-07:00" endTime="2026-04-21T13:54:04.4938352-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2d8f0a0-828b-4e68-9e15-749f963d8b6e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Iniciales: devuelve primera letra mayúscula si hay una palabra(nombre: &quot;matematicas&quot;, expected: &quot;M&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="46577491-c79f-ef78-f0cd-c3d43dd650fc">
+      <Execution id="fc6a8480-b600-4718-9144-2b33b89d05f6" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_SingleWord_ReturnsFirstLetterUpper" />
+    </UnitTest>
+    <UnitTest name="Materia: valores por defecto correctos" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="4bf3c61c-9dce-c1fc-cfbe-fd23899f7af6">
+      <Execution id="71ed1361-bf00-41a6-9275-97069b3eddd8" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Materia_Defaults_AreCorrect" />
+    </UnitTest>
+    <UnitTest name="ProximaAsistenciaDto: default YaRegistrada = false" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="ebedaef8-d529-7ac5-f33a-0cdbd01c134e">
+      <Execution id="09e690ed-71e8-4b15-8cda-08c4f3009217" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.DocenteAndProximaTests" name="Proxima_Default_NotRegistered" />
+    </UnitTest>
+    <UnitTest name="HomeAlumnoDto: defaults de colecciones no son null" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="7df0974e-932f-c729-896d-d7eb136d6f52">
+      <Execution id="ae963e17-33b1-484c-b8bc-c97983d2e307" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.HomeAlumnoTests" name="HomeAlumno_Defaults" />
+    </UnitTest>
+    <UnitTest name="KardexItemDto: admite calificación nula (materia en curso)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="ee21f0b6-c4bc-c1f2-f306-c191aeadf3fa">
+      <Execution id="81b2d5a8-f4f7-4314-87ef-8ebc835bfe8e" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.KardexTests" name="KardexItem_AllowsNullCalificacion" />
+    </UnitTest>
+    <UnitTest name="HorarioDto: DiaSemana entre 1-7(dia: 3)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="6db31d0c-920a-4f03-44d7-13430c7d7d9c">
+      <Execution id="0dd24c49-9c18-4f2f-ba05-196eb461c788" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.HorarioTests" name="Horario_Valida_DiaSemana" />
+    </UnitTest>
+    <UnitTest name="Email: rechaza formatos inválidos(email: &quot;espacios en @ email.com&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="76835308-1d01-62b1-e97a-4890b0518908">
+      <Execution id="0afee0c0-f9c7-4994-8774-b13fffa8936b" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Invalid" />
+    </UnitTest>
+    <UnitTest name="Email: rechaza formatos inválidos(email: &quot;&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="53368375-4fad-92a0-590b-c055006d1479">
+      <Execution id="820e8050-402c-4d0a-a81d-cbe76268f752" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Invalid" />
+    </UnitTest>
+    <UnitTest name="Email: rechaza formatos inválidos(email: &quot;sin@dominio&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="56ab1078-0fdb-da1c-be07-58ba72bc997e">
+      <Execution id="157c7f2a-e081-4555-ab97-73c3bd5c289d" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Invalid" />
+    </UnitTest>
+    <UnitTest name="Grupo: defaults conformes al contrato del backend" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="defb5946-a15c-bd13-bb36-2a3e14740ce8">
+      <Execution id="40cf7e38-70f2-4546-862c-b835d6d7f617" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.GrupoTests" name="Grupo_Defaults" />
+    </UnitTest>
+    <UnitTest name="Email: rechaza formatos inválidos(email: &quot;@sin-local.com&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="2d6124fd-0307-9a24-1eb7-23279b4c0601">
+      <Execution id="9d6baab6-1a60-4e26-a620-2f29dfba93ff" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Invalid" />
+    </UnitTest>
+    <UnitTest name="Password: mínimo 6 chars(pwd: &quot;Secreto1!&quot;, valid: True)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="ada45cdc-3232-9cae-cdcd-e455d262f0fc">
+      <Execution id="64eb6fff-a43a-48a7-a894-d4c23fb8dc10" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Password_MinLength" />
+    </UnitTest>
+    <UnitTest name="ImportResultDto: defaults sanos" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="76c95d2b-de83-d285-0c8b-776db8b42f8f">
+      <Execution id="5ef96076-1af8-4551-9cd4-adabd1076622" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ImportacionTests" name="ImportResult_Defaults" />
+    </UnitTest>
+    <UnitTest name="Iniciales: retorna cadena vacía cuando Nombre es nulo o blanco(nombre: null)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="83e44640-ec9d-1978-6aea-287659bf5259">
+      <Execution id="dfe9eaa3-e007-4c1a-bd18-6fdf7e085c93" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_ReturnsEmpty_WhenNombreIsNullOrBlank" />
+    </UnitTest>
+    <UnitTest name="HorarioDto: DiaSemana entre 1-7(dia: 1)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="9a5f98db-7aa7-150f-03e8-f825299d2c5c">
+      <Execution id="af3cda01-cdd7-4461-a169-4e59b10ebf54" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.HorarioTests" name="Horario_Valida_DiaSemana" />
+    </UnitTest>
+    <UnitTest name="GenerarQrRequest: duración puede ser null" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="9df09752-6f0e-7a53-e16e-afe4dee6a881">
+      <Execution id="407dd468-bad2-4029-946e-bdd3b3a9d89e" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.QrDtosTests" name="GenerarQrRequest_NullDuration" />
+    </UnitTest>
+    <UnitTest name="CalificacionBulkDto: serializa correctamente la lista" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="52b5a687-8c5d-2cf6-ad1b-e56101909ba8">
+      <Execution id="491289ac-3077-4ce6-b21a-b8d9ed923379" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.CalificacionTests" name="Bulk_SerializesCorrectly" />
+    </UnitTest>
+    <UnitTest name="Iniciales: devuelve primera letra mayúscula si hay una palabra(nombre: &quot;QUIMICA&quot;, expected: &quot;Q&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="0774e5b1-0cfa-45a6-2f31-4116ecaf0aaa">
+      <Execution id="52b3847f-3c28-4e91-8fb0-6cf37ddfa7bb" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_SingleWord_ReturnsFirstLetterUpper" />
+    </UnitTest>
+    <UnitTest name="CalificacionDto: deserializa con porcentaje opcional" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="c9805f89-3c48-c001-afba-7306b779f685">
+      <Execution id="d8a7952f-254d-4f9d-b98a-c1a0f3e12d0b" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.CalificacionTests" name="Calificacion_Deserialize_WithPorcentaje" />
+    </UnitTest>
+    <UnitTest name="RegisterRequest: soporta los 3 roles definidos(rol: 3)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="5afcb854-2d1a-2b61-bbe5-e6fdcd00fae7">
+      <Execution id="924b7418-d208-4fc2-8a27-00888615f28c" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuthDtosTests" name="RegisterRequest_AcceptsRoles" />
+    </UnitTest>
+    <UnitTest name="RegisterRequest: soporta los 3 roles definidos(rol: 2)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="cdc100bf-8043-948f-0002-08c9af7c67f1">
+      <Execution id="7343cdd1-80df-425e-b285-20bd3f291eaa" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuthDtosTests" name="RegisterRequest_AcceptsRoles" />
+    </UnitTest>
+    <UnitTest name="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;sistemas  operativos&quot;, expected: &quot;SO&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="8079eacd-89c5-85db-31ba-528f3f56628f">
+      <Execution id="31e0d332-a2c1-462f-b8ce-193c3f12bcec" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_MultiWord_ReturnsTwoUpperInitials" />
+    </UnitTest>
+    <UnitTest name="Alumno: acepta IDs positivos arbitrarios(id: 1)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="d650bf7a-7759-9bcd-70be-1f134c918202">
+      <Execution id="300d71d9-97b2-4f8a-aa2e-c2d9a9e73e4d" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AlumnoTests" name="Alumno_AcceptsPositiveIds" />
+    </UnitTest>
+    <UnitTest name="RegisterRequest: soporta los 3 roles definidos(rol: 1)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="481d7624-d287-48fc-d137-7e19c07a1341">
+      <Execution id="95652a9e-9602-44a0-b045-fee616d7b817" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuthDtosTests" name="RegisterRequest_AcceptsRoles" />
+    </UnitTest>
+    <UnitTest name="ClaseInfo.Iniciales: un nombre =&gt; 1 letra; varias =&gt; 2 letras(nombre: &quot;Algebra&quot;, expected: &quot;A&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="5cd80abc-84c5-9bc3-305b-5aa9f1bad6c7">
+      <Execution id="9edd14c9-0894-4925-b3d4-6895ef1d2008" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ClaseInfoTests" name="Iniciales_Cases" />
+    </UnitTest>
+    <UnitTest name="Iniciales: retorna cadena vacía cuando Nombre es nulo o blanco(nombre: &quot;&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="e3d67a1a-3990-cf07-898c-43bd8477043a">
+      <Execution id="934a6680-91b9-417e-910c-50eba2a02ee2" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_ReturnsEmpty_WhenNombreIsNullOrBlank" />
+    </UnitTest>
+    <UnitTest name="Email: acepta formatos válidos(email: &quot;alumno@escuela.edu.mx&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="bb17c360-adca-7785-7874-ac1ac2af74e9">
+      <Execution id="b2d8f0a0-828b-4e68-9e15-749f963d8b6e" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Valid" />
+    </UnitTest>
+    <UnitTest name="ImportUsuarioRow: admite los 3 roles válidos(r: 2)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="69f470fb-5a42-2a19-383d-5cec624d2381">
+      <Execution id="8b792bf2-5594-407f-9d6a-5b4a1e6ce3c4" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ImportacionTests" name="ImportRow_Roles" />
+    </UnitTest>
+    <UnitTest name="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;programacion movil&quot;, expected: &quot;PM&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="83e3a168-af78-8260-3040-229d867a093a">
+      <Execution id="ae0948ec-9292-45dd-88e0-586d5d9fea19" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_MultiWord_ReturnsTwoUpperInitials" />
+    </UnitTest>
+    <UnitTest name="EventoAuditoriaDto: deserializa evento completo" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="38a571bf-d66c-71ee-c480-5f94782cffa3">
+      <Execution id="6ce09dd1-46db-4f99-8735-329f8886e492" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuditoriaTests" name="Evento_Deserialize" />
+    </UnitTest>
+    <UnitTest name="ImportUsuarioRow: admite los 3 roles válidos(r: 1)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="724f0a30-4cf7-ca08-04df-0927d064c22f">
+      <Execution id="e608e9c8-08a6-4a79-a226-886c87048afb" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ImportacionTests" name="ImportRow_Roles" />
+    </UnitTest>
+    <UnitTest name="ValidarQrResponse: valores por defecto seguros" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="e7f9d933-9bca-0cf2-04a8-6fea0066a55b">
+      <Execution id="b9c96ff5-eaf4-4504-9511-04466dcd8b9b" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.QrDtosTests" name="ValidarQrResponse_Defaults" />
+    </UnitTest>
+    <UnitTest name="ClaseInfo: acepta porcentaje en rango 0-100" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="181e95ca-dc74-5738-7c9f-92af70e95193">
+      <Execution id="873b5158-c53c-494e-bf2f-13c84405ae9c" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ClaseInfoTests" name="ClaseInfo_Porcentaje_InRange" />
+    </UnitTest>
+    <UnitTest name="HomeAlumnoDto: deserializa payload completo" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="0f6e7c1f-5dfe-5d0b-224a-bdb1653e4fbf">
+      <Execution id="1af5096e-53f3-42b2-80d6-93793427f24e" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.HomeAlumnoTests" name="HomeAlumno_Deserialize_Full" />
+    </UnitTest>
+    <UnitTest name="LoginResponse: deserializa payload real del backend" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="43c3d415-e195-5c22-43ee-275a50c5419b">
+      <Execution id="9d46993a-5ed6-475b-91cb-1fe44ffef314" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuthDtosTests" name="LoginResponse_Deserialize_RealPayload" />
+    </UnitTest>
+    <UnitTest name="ClaseInfo.Iniciales: vacío si nombre es nulo/blanco" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="9ba0685e-c3b9-4d28-d8dd-6a9e35534cf7">
+      <Execution id="80f8bcf9-b765-4b5b-aa09-be2f5198901a" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ClaseInfoTests" name="Iniciales_EmptyWhenBlank" />
+    </UnitTest>
+    <UnitTest name="Iniciales: retorna cadena vacía cuando Nombre es nulo o blanco(nombre: &quot;   &quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="b25679a3-47ae-f166-6a7b-601012803490">
+      <Execution id="40f1883c-3b48-497e-a573-ed0f2f759a36" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_ReturnsEmpty_WhenNombreIsNullOrBlank" />
+    </UnitTest>
+    <UnitTest name="Email: acepta formatos válidos(email: &quot;nombre.apellido+tag@dominio.co&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="48761fff-3c90-2b77-956e-761c3f240150">
+      <Execution id="3e918a17-4c5a-4b78-a78f-c8b3a9b11ad5" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Valid" />
+    </UnitTest>
+    <UnitTest name="Alumno: acepta IDs positivos arbitrarios(id: 999)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="d80cf292-3e2e-8436-9395-9472c598db1d">
+      <Execution id="0942e6c9-d747-4712-93fc-c878ffaaea57" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AlumnoTests" name="Alumno_AcceptsPositiveIds" />
+    </UnitTest>
+    <UnitTest name="Email: rechaza formatos inválidos(email: &quot;sin-arroba&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="6829f8f6-aa4c-6272-50f1-b91c4e1987c7">
+      <Execution id="97ac6579-b1dd-419d-ae6b-492ff9ae4c85" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Invalid" />
+    </UnitTest>
+    <UnitTest name="GenerarQrRequest: record mantiene sus valores y es comparable por igualdad" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="5a8fb407-e4e2-c5ff-c753-4551c2a58829">
+      <Execution id="1a69b87a-0a04-4375-a26a-556928e475a4" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.QrDtosTests" name="GenerarQrRequest_RecordEquality" />
+    </UnitTest>
+    <UnitTest name="CalificacionUpsertDto: record mantiene los valores" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="bd631166-46c9-f209-2a76-6b4c4f64e063">
+      <Execution id="3576cd5c-fbbb-4e1f-978a-bb0ca5a03811" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.CalificacionTests" name="Upsert_RecordValues" />
+    </UnitTest>
+    <UnitTest name="Materia: deserializa correctamente JSON del backend" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="253e3900-c1c5-10a2-51df-5d6a16cd06c6">
+      <Execution id="c8fc9bec-cbab-4e6c-831b-bd44db675ad0" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Materia_DeserializeJson_MapsCorrectly" />
+    </UnitTest>
+    <UnitTest name="InscripcionDto: defaults" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="0c32420f-bf9f-893a-9fe1-2c71ba36d106">
+      <Execution id="d883738c-49f2-4b63-93b6-e32d37428b53" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.GrupoTests" name="Inscripcion_Defaults" />
+    </UnitTest>
+    <UnitTest name="Alumno: acepta IDs positivos arbitrarios(id: 2147483647)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="afc56c6f-69ec-1a38-8aa5-7ce847530f57">
+      <Execution id="077d890d-e715-4e40-9330-751cb5ed45da" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AlumnoTests" name="Alumno_AcceptsPositiveIds" />
+    </UnitTest>
+    <UnitTest name="EventoAuditoriaDto: Meta puede ser null" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="6e07d384-9a2b-7a7e-b3aa-89be43d2cf3b">
+      <Execution id="b25ebcb2-e748-4926-8397-639e2a8ff95d" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuditoriaTests" name="Evento_Meta_Nullable" />
+    </UnitTest>
+    <UnitTest name="DocenteDto: deserializa lista de docentes" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="da6b7133-e796-a253-e205-2a70c0ba4e27">
+      <Execution id="94d328d8-da72-43e2-b09d-c4c2409e584a" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.DocenteAndProximaTests" name="Docente_Deserialize" />
+    </UnitTest>
+    <UnitTest name="HorarioDto: DiaSemana entre 1-7(dia: 7)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="b845055d-98b4-fa3b-617b-be3be3162777">
+      <Execution id="cc0f0d57-78d8-4a74-aa7e-e0d5efc141f6" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.HorarioTests" name="Horario_Valida_DiaSemana" />
+    </UnitTest>
+    <UnitTest name="Email: acepta formatos válidos(email: &quot;a@b.com&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="d3d45b29-c5d8-9c33-bacc-6f4374b058d2">
+      <Execution id="5b875e3b-ab52-4621-bd90-b9cecb53c3f7" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Email_Valid" />
+    </UnitTest>
+    <UnitTest name="ClaseInfo.Iniciales: un nombre =&gt; 1 letra; varias =&gt; 2 letras(nombre: &quot;algoritmos estructuras datos&quot;, expected: &quot;AE&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="b3470aa1-cf0c-cba8-4017-d841bb58fddf">
+      <Execution id="b21c0609-0ef9-421b-8696-0d0852fd7083" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ClaseInfoTests" name="Iniciales_Cases" />
+    </UnitTest>
+    <UnitTest name="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;ingenieria de software&quot;, expected: &quot;ID&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="e73f5492-980b-3ede-c9da-ef07a0aca073">
+      <Execution id="56b9ba9b-6b21-4811-94d4-32d619bc447d" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_MultiWord_ReturnsTwoUpperInitials" />
+    </UnitTest>
+    <UnitTest name="Grupo: deserializa JSON con Materia anidada" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="960caeb2-61b6-d340-ba7e-a7b84d99c931">
+      <Execution id="77ee076c-0133-408a-ab3c-b4eb07c51934" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.GrupoTests" name="Grupo_Deserializes_WithNestedMateria" />
+    </UnitTest>
+    <UnitTest name="LoginRequest: asigna Email y Password" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="12774760-d410-e386-a04a-9c78b8c62197">
+      <Execution id="ea150911-b4a9-4854-bc37-6b60874d9c21" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuthDtosTests" name="LoginRequest_Assign" />
+    </UnitTest>
+    <UnitTest name="CalificacionBulkItemDto: PuntosMaximos default 10 y TipoEvaluacion 'Final'" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="8f2c9e04-d223-1738-9208-054753c638ec">
+      <Execution id="973eaea6-d1f3-418d-b4e6-81c0b4718e4f" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.CalificacionTests" name="BulkItem_Defaults" />
+    </UnitTest>
+    <UnitTest name="GenerarQrResponse: expira en el futuro" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="67e169b1-5b87-efda-159d-2d095c2d12cd">
+      <Execution id="fcfa8271-5883-44c7-9469-8950aecc6a01" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.QrDtosTests" name="GenerarQrResponse_ExpiraEn_Future" />
+    </UnitTest>
+    <UnitTest name="ImportUsuarioRow: admite los 3 roles válidos(r: 3)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="1b44fc17-5fcc-2e78-be56-05652f4950d1">
+      <Execution id="aee539c9-4e73-4224-8d0c-83b5adb5a7b4" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ImportacionTests" name="ImportRow_Roles" />
+    </UnitTest>
+    <UnitTest name="ImportUsuarioRow: record acepta telefono y password opcionales" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="dc714b5b-44e3-1b29-e740-fed9e2aa2925">
+      <Execution id="d0d6b80a-398c-4d95-a37c-5064f92625b1" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ImportacionTests" name="ImportRow_Defaults" />
+    </UnitTest>
+    <UnitTest name="LoginResponse: valores por defecto son seguros" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="30fbf1c7-29f8-a75e-66d5-e6309200ecc9">
+      <Execution id="ce2c0d72-efa8-4252-babe-4e00184a9c57" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuthDtosTests" name="LoginResponse_Defaults" />
+    </UnitTest>
+    <UnitTest name="RegisterRequest: valores por defecto son cadenas vacías" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="fdb837ae-3f4b-2b3a-1b0d-8c202392c6f8">
+      <Execution id="ba9be901-ab54-4c2f-8291-28335056704d" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AuthDtosTests" name="RegisterRequest_Defaults" />
+    </UnitTest>
+    <UnitTest name="Password: mínimo 6 chars(pwd: &quot;abcdef&quot;, valid: True)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="6bfd7885-f9fd-4ebc-0251-ad6089318f4e">
+      <Execution id="7a332415-c84f-4cf3-a5b7-e08d08faf37d" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Password_MinLength" />
+    </UnitTest>
+    <UnitTest name="HorarioDto: deserializa fila de horario semanal" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="e2a6229b-32f7-630a-3acd-0fedb81443ce">
+      <Execution id="587d452c-b776-4266-85b6-3f3dbb120dee" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.HorarioTests" name="Horario_Deserialize" />
+    </UnitTest>
+    <UnitTest name="Alumno: propiedades se asignan correctamente" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="2c02f833-1350-e014-468a-25a6c39ce659">
+      <Execution id="bbaee537-7954-4590-ae87-1be46f91a053" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AlumnoTests" name="Alumno_PropertiesAssign_WorksCorrectly" />
+    </UnitTest>
+    <UnitTest name="Iniciales: devuelve dos iniciales mayúsculas para dos palabras o más(nombre: &quot;Base de Datos&quot;, expected: &quot;BD&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="cc1a7057-f3ff-79b8-d384-a64a55074e47">
+      <Execution id="0e150637-f6ed-4e97-bf5e-cf85f2dc2683" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_MultiWord_ReturnsTwoUpperInitials" />
+    </UnitTest>
+    <UnitTest name="ImportResultDto: deserializa resultado con errores" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="f82c7a03-bb6c-430b-1cd0-c429fd3f5acb">
+      <Execution id="222781ce-a765-42fc-a4df-3e84e16c6933" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ImportacionTests" name="ImportResult_DeserializesWithErrors" />
+    </UnitTest>
+    <UnitTest name="ProximaAsistenciaDto: deserializa sesión con flag YaRegistrada" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="dde88a9e-f011-4397-9a65-83d3d5a19ee9">
+      <Execution id="8898c0ff-dc68-4552-84cc-9b847f77adb6" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.DocenteAndProximaTests" name="ProximaAsistencia_Deserialize" />
+    </UnitTest>
+    <UnitTest name="Alumno: nuevas instancias tienen valores por defecto correctos" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="aec8335c-7699-4d06-d7f7-b106e8984b45">
+      <Execution id="5d18fee2-bfd6-4f0a-9719-e48e85c17c69" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.AlumnoTests" name="NewAlumno_HasDefaultValues" />
+    </UnitTest>
+    <UnitTest name="ValidarQrRequest: record con lat/long opcionales" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="594e3bee-56b4-5b2f-c55a-e483cb8b3d06">
+      <Execution id="2b441ff7-f6aa-4a56-b757-fc9d72b80a2d" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.QrDtosTests" name="ValidarQrRequest_OptionalCoords" />
+    </UnitTest>
+    <UnitTest name="KardexItemDto: deserializa cálculo de % de asistencia" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="1b65c132-2caa-4555-4aca-23ce1e00d49d">
+      <Execution id="a97ad6f5-425b-41e3-af5b-f481a7f4ec18" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.KardexTests" name="KardexItem_Deserialize_ComputesAsistencia" />
+    </UnitTest>
+    <UnitTest name="Iniciales: devuelve primera letra mayúscula si hay una palabra(nombre: &quot;fisica&quot;, expected: &quot;F&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="225ccd48-d47a-761f-aaa6-ee7d4be47b86">
+      <Execution id="25757da3-cd65-4911-b758-691e16b92a02" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.MateriaTests" name="Iniciales_SingleWord_ReturnsFirstLetterUpper" />
+    </UnitTest>
+    <UnitTest name="Password: mínimo 6 chars(pwd: &quot;12345&quot;, valid: False)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="49221ccf-cd88-ccff-e988-bbfe224ea3aa">
+      <Execution id="a00ef1fe-a666-4485-85e5-0c9dea420c32" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Validators.EmailValidatorTests" name="Password_MinLength" />
+    </UnitTest>
+    <UnitTest name="ClaseInfo.Iniciales: un nombre =&gt; 1 letra; varias =&gt; 2 letras(nombre: &quot;sistemas operativos&quot;, expected: &quot;SO&quot;)" storage="c:\users\abel\source\repos\tests\mauiapp1.unittests\bin\debug\net9.0\mauiapp1.unittests.dll" id="d4d09110-d821-9a90-c924-5b79cd1f06ba">
+      <Execution id="9f17986e-8c9c-40b0-90a8-12f43558a283" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.UnitTests\bin\Debug\net9.0\MauiApp1.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.UnitTests.Models.ClaseInfoTests" name="Iniciales_Cases" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="46577491-c79f-ef78-f0cd-c3d43dd650fc" executionId="fc6a8480-b600-4718-9144-2b33b89d05f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f6e7c1f-5dfe-5d0b-224a-bdb1653e4fbf" executionId="1af5096e-53f3-42b2-80d6-93793427f24e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aec8335c-7699-4d06-d7f7-b106e8984b45" executionId="5d18fee2-bfd6-4f0a-9719-e48e85c17c69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d80cf292-3e2e-8436-9395-9472c598db1d" executionId="0942e6c9-d747-4712-93fc-c878ffaaea57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0774e5b1-0cfa-45a6-2f31-4116ecaf0aaa" executionId="52b3847f-3c28-4e91-8fb0-6cf37ddfa7bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdb837ae-3f4b-2b3a-1b0d-8c202392c6f8" executionId="ba9be901-ab54-4c2f-8291-28335056704d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3470aa1-cf0c-cba8-4017-d841bb58fddf" executionId="b21c0609-0ef9-421b-8696-0d0852fd7083" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76835308-1d01-62b1-e97a-4890b0518908" executionId="0afee0c0-f9c7-4994-8774-b13fffa8936b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9805f89-3c48-c001-afba-7306b779f685" executionId="d8a7952f-254d-4f9d-b98a-c1a0f3e12d0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cd80abc-84c5-9bc3-305b-5aa9f1bad6c7" executionId="9edd14c9-0894-4925-b3d4-6895ef1d2008" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30fbf1c7-29f8-a75e-66d5-e6309200ecc9" executionId="ce2c0d72-efa8-4252-babe-4e00184a9c57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b65c132-2caa-4555-4aca-23ce1e00d49d" executionId="a97ad6f5-425b-41e3-af5b-f481a7f4ec18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c02f833-1350-e014-468a-25a6c39ce659" executionId="bbaee537-7954-4590-ae87-1be46f91a053" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da6b7133-e796-a253-e205-2a70c0ba4e27" executionId="94d328d8-da72-43e2-b09d-c4c2409e584a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69f470fb-5a42-2a19-383d-5cec624d2381" executionId="8b792bf2-5594-407f-9d6a-5b4a1e6ce3c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12774760-d410-e386-a04a-9c78b8c62197" executionId="ea150911-b4a9-4854-bc37-6b60874d9c21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bf3c61c-9dce-c1fc-cfbe-fd23899f7af6" executionId="71ed1361-bf00-41a6-9275-97069b3eddd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f82c7a03-bb6c-430b-1cd0-c429fd3f5acb" executionId="222781ce-a765-42fc-a4df-3e84e16c6933" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b44fc17-5fcc-2e78-be56-05652f4950d1" executionId="aee539c9-4e73-4224-8d0c-83b5adb5a7b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49221ccf-cd88-ccff-e988-bbfe224ea3aa" executionId="a00ef1fe-a666-4485-85e5-0c9dea420c32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c32420f-bf9f-893a-9fe1-2c71ba36d106" executionId="d883738c-49f2-4b63-93b6-e32d37428b53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b25679a3-47ae-f166-6a7b-601012803490" executionId="40f1883c-3b48-497e-a573-ed0f2f759a36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6db31d0c-920a-4f03-44d7-13430c7d7d9c" executionId="0dd24c49-9c18-4f2f-ba05-196eb461c788" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6829f8f6-aa4c-6272-50f1-b91c4e1987c7" executionId="97ac6579-b1dd-419d-ae6b-492ff9ae4c85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc714b5b-44e3-1b29-e740-fed9e2aa2925" executionId="d0d6b80a-398c-4d95-a37c-5064f92625b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7df0974e-932f-c729-896d-d7eb136d6f52" executionId="ae963e17-33b1-484c-b8bc-c97983d2e307" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48761fff-3c90-2b77-956e-761c3f240150" executionId="3e918a17-4c5a-4b78-a78f-c8b3a9b11ad5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d650bf7a-7759-9bcd-70be-1f134c918202" executionId="300d71d9-97b2-4f8a-aa2e-c2d9a9e73e4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="defb5946-a15c-bd13-bb36-2a3e14740ce8" executionId="40cf7e38-70f2-4546-862c-b835d6d7f617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="724f0a30-4cf7-ca08-04df-0927d064c22f" executionId="e608e9c8-08a6-4a79-a226-886c87048afb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9df09752-6f0e-7a53-e16e-afe4dee6a881" executionId="407dd468-bad2-4029-946e-bdd3b3a9d89e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a8fb407-e4e2-c5ff-c753-4551c2a58829" executionId="1a69b87a-0a04-4375-a26a-556928e475a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f2c9e04-d223-1738-9208-054753c638ec" executionId="973eaea6-d1f3-418d-b4e6-81c0b4718e4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dde88a9e-f011-4397-9a65-83d3d5a19ee9" executionId="8898c0ff-dc68-4552-84cc-9b847f77adb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83e3a168-af78-8260-3040-229d867a093a" executionId="ae0948ec-9292-45dd-88e0-586d5d9fea19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52b5a687-8c5d-2cf6-ad1b-e56101909ba8" executionId="491289ac-3077-4ce6-b21a-b8d9ed923379" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bfd7885-f9fd-4ebc-0251-ad6089318f4e" executionId="7a332415-c84f-4cf3-a5b7-e08d08faf37d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a5f98db-7aa7-150f-03e8-f825299d2c5c" executionId="af3cda01-cdd7-4461-a169-4e59b10ebf54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee21f0b6-c4bc-c1f2-f306-c191aeadf3fa" executionId="81b2d5a8-f4f7-4314-87ef-8ebc835bfe8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8079eacd-89c5-85db-31ba-528f3f56628f" executionId="31e0d332-a2c1-462f-b8ce-193c3f12bcec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ba0685e-c3b9-4d28-d8dd-6a9e35534cf7" executionId="80f8bcf9-b765-4b5b-aa09-be2f5198901a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b845055d-98b4-fa3b-617b-be3be3162777" executionId="cc0f0d57-78d8-4a74-aa7e-e0d5efc141f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5afcb854-2d1a-2b61-bbe5-e6fdcd00fae7" executionId="924b7418-d208-4fc2-8a27-00888615f28c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ada45cdc-3232-9cae-cdcd-e455d262f0fc" executionId="64eb6fff-a43a-48a7-a894-d4c23fb8dc10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43c3d415-e195-5c22-43ee-275a50c5419b" executionId="9d46993a-5ed6-475b-91cb-1fe44ffef314" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="225ccd48-d47a-761f-aaa6-ee7d4be47b86" executionId="25757da3-cd65-4911-b758-691e16b92a02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d6124fd-0307-9a24-1eb7-23279b4c0601" executionId="9d6baab6-1a60-4e26-a620-2f29dfba93ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3d67a1a-3990-cf07-898c-43bd8477043a" executionId="934a6680-91b9-417e-910c-50eba2a02ee2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd631166-46c9-f209-2a76-6b4c4f64e063" executionId="3576cd5c-fbbb-4e1f-978a-bb0ca5a03811" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="253e3900-c1c5-10a2-51df-5d6a16cd06c6" executionId="c8fc9bec-cbab-4e6c-831b-bd44db675ad0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53368375-4fad-92a0-590b-c055006d1479" executionId="820e8050-402c-4d0a-a81d-cbe76268f752" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4d09110-d821-9a90-c924-5b79cd1f06ba" executionId="9f17986e-8c9c-40b0-90a8-12f43558a283" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7f9d933-9bca-0cf2-04a8-6fea0066a55b" executionId="b9c96ff5-eaf4-4504-9511-04466dcd8b9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="594e3bee-56b4-5b2f-c55a-e483cb8b3d06" executionId="2b441ff7-f6aa-4a56-b757-fc9d72b80a2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdc100bf-8043-948f-0002-08c9af7c67f1" executionId="7343cdd1-80df-425e-b285-20bd3f291eaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76c95d2b-de83-d285-0c8b-776db8b42f8f" executionId="5ef96076-1af8-4551-9cd4-adabd1076622" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e07d384-9a2b-7a7e-b3aa-89be43d2cf3b" executionId="b25ebcb2-e748-4926-8397-639e2a8ff95d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="181e95ca-dc74-5738-7c9f-92af70e95193" executionId="873b5158-c53c-494e-bf2f-13c84405ae9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83e44640-ec9d-1978-6aea-287659bf5259" executionId="dfe9eaa3-e007-4c1a-bd18-6fdf7e085c93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afc56c6f-69ec-1a38-8aa5-7ce847530f57" executionId="077d890d-e715-4e40-9330-751cb5ed45da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2a6229b-32f7-630a-3acd-0fedb81443ce" executionId="587d452c-b776-4266-85b6-3f3dbb120dee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="481d7624-d287-48fc-d137-7e19c07a1341" executionId="95652a9e-9602-44a0-b045-fee616d7b817" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e73f5492-980b-3ede-c9da-ef07a0aca073" executionId="56b9ba9b-6b21-4811-94d4-32d619bc447d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc1a7057-f3ff-79b8-d384-a64a55074e47" executionId="0e150637-f6ed-4e97-bf5e-cf85f2dc2683" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebedaef8-d529-7ac5-f33a-0cdbd01c134e" executionId="09e690ed-71e8-4b15-8cda-08c4f3009217" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3d45b29-c5d8-9c33-bacc-6f4374b058d2" executionId="5b875e3b-ab52-4621-bd90-b9cecb53c3f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="960caeb2-61b6-d340-ba7e-a7b84d99c931" executionId="77ee076c-0133-408a-ab3c-b4eb07c51934" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38a571bf-d66c-71ee-c480-5f94782cffa3" executionId="6ce09dd1-46db-4f99-8735-329f8886e492" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56ab1078-0fdb-da1c-be07-58ba72bc997e" executionId="157c7f2a-e081-4555-ab97-73c3bd5c289d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67e169b1-5b87-efda-159d-2d095c2d12cd" executionId="fcfa8271-5883-44c7-9469-8950aecc6a01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb17c360-adca-7785-7874-ac1ac2af74e9" executionId="b2d8f0a0-828b-4e68-9e15-749f963d8b6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="71" executed="71" passed="71" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.15)&#xD;
+[xUnit.net 00:00:00.09]   Discovering: MauiApp1.UnitTests&#xD;
+[xUnit.net 00:00:00.16]   Discovered:  MauiApp1.UnitTests&#xD;
+[xUnit.net 00:00:00.16]   Starting:    MauiApp1.UnitTests&#xD;
+[xUnit.net 00:00:00.32]   Finished:    MauiApp1.UnitTests&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="ABELRAMIREZ" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="ABELRAMIREZ\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

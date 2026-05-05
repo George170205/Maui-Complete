@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4baff87a-c787-4236-8c98-bcebe98c0145" name="Abel@ABELRAMIREZ 2026-04-21 13:54:09" runUser="ABELRAMIREZ\Abel" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-04-21T13:54:09.4078239-07:00" queuing="2026-04-21T13:54:09.4078246-07:00" start="2026-04-21T13:54:07.9352315-07:00" finish="2026-04-21T13:54:09.7011081-07:00" />
+  <TestSettings name="default" id="aed682d3-ebed-42fc-8f3c-5efcf7d4fd0e">
+    <Deployment runDeploymentRoot="Abel_ABELRAMIREZ_2026-04-21_13_54_09" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d6aff230-95b4-4d35-9d45-906abea4bcf7" testId="090b17ef-7986-6fd5-0bf9-93399d4d123c" testName="GetHorarioEstudiante: ruta y lista" computerName="ABELRAMIREZ" duration="00:00:00.0515891" startTime="2026-04-21T13:54:09.3415253-07:00" endTime="2026-04-21T13:54:09.3415256-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6aff230-95b4-4d35-9d45-906abea4bcf7" />
+    <UnitTestResult executionId="b13c7e01-2ac0-481f-9a65-63ace4091989" testId="10f94e30-692d-3404-0acf-7f53b3f48927" testName="ValidarQR: incluye lat/long en body cuando se provee" computerName="ABELRAMIREZ" duration="00:00:00.0029554" startTime="2026-04-21T13:54:09.3712267-07:00" endTime="2026-04-21T13:54:09.3712268-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b13c7e01-2ac0-481f-9a65-63ace4091989" />
+    <UnitTestResult executionId="38061b74-a5ba-46b1-a06c-550fa3e21056" testId="982f9b7d-11b6-09cb-3aed-09ff02b3d78c" testName="Register: 201 → true" computerName="ABELRAMIREZ" duration="00:00:00.0007086" startTime="2026-04-21T13:54:09.3765637-07:00" endTime="2026-04-21T13:54:09.3765638-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38061b74-a5ba-46b1-a06c-550fa3e21056" />
+    <UnitTestResult executionId="63e75cd1-9b32-4575-9987-228270cdc35c" testId="465da894-7885-3eb0-945a-3b6a1b7b8b7a" testName="GetHomeAlumno: parsea estructura agregada" computerName="ABELRAMIREZ" duration="00:00:00.0133453" startTime="2026-04-21T13:54:09.3784139-07:00" endTime="2026-04-21T13:54:09.3784140-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63e75cd1-9b32-4575-9987-228270cdc35c" />
+    <UnitTestResult executionId="8bc37fdb-bfdc-4837-a332-e2e7a9d71be3" testId="f9a4e576-76cf-2b88-0b2c-80b08ea9e70b" testName="GetMaterias: 200 → lista parseada" computerName="ABELRAMIREZ" duration="00:00:00.0021484" startTime="2026-04-21T13:54:09.3794100-07:00" endTime="2026-04-21T13:54:09.3794101-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bc37fdb-bfdc-4837-a332-e2e7a9d71be3" />
+    <UnitTestResult executionId="9c067294-1471-4b82-aefb-2f03c74c401c" testId="ca33ca69-0914-c3f9-f012-c8377633343d" testName="GenerarQR: 403 sin auth → null" computerName="ABELRAMIREZ" duration="00:00:00.0010713" startTime="2026-04-21T13:54:09.3781082-07:00" endTime="2026-04-21T13:54:09.3781083-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c067294-1471-4b82-aefb-2f03c74c401c" />
+    <UnitTestResult executionId="1cbd2676-773b-42c3-95bc-90cd34aa28ce" testId="b2401b24-e302-a539-6c15-50b8b37ba41c" testName="Live: GET /api/materias responde 200 con JSON array" computerName="ABELRAMIREZ" duration="00:00:00.0088152" startTime="2026-04-21T13:54:09.3288932-07:00" endTime="2026-04-21T13:54:09.3289184-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cbd2676-773b-42c3-95bc-90cd34aa28ce">
+      <Output>
+        <ErrorInfo>
+          <Message>SKIP: RUN_LIVE_TESTS no está definido</Message>
+          <StackTrace>   at MauiApp1.IntegrationTests.Smoke.Skip.IfNot(Boolean condition, String reason) in C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs:line 44&#xD;
+   at MauiApp1.IntegrationTests.Smoke.LiveBackendSmokeTests.Materias_Live_Ok() in C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs:line 22&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6680576d-8780-4052-8f1e-04b071f94e6f" testId="b5245f49-1bf1-1714-cb9b-0eee3509abc3" testName="GetMaterias: 500 → lista vacía (no null)" computerName="ABELRAMIREZ" duration="00:00:00.0037114" startTime="2026-04-21T13:54:09.3773250-07:00" endTime="2026-04-21T13:54:09.3773251-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6680576d-8780-4052-8f1e-04b071f94e6f" />
+    <UnitTestResult executionId="72192303-4a5d-4c81-a77f-2122c757aa77" testId="9e05e5f0-c45c-d9fd-7adc-a335b624d9d5" testName="GetDocentes: deserializa gruposAsignados" computerName="ABELRAMIREZ" duration="00:00:00.0041704" startTime="2026-04-21T13:54:09.3740106-07:00" endTime="2026-04-21T13:54:09.3740106-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72192303-4a5d-4c81-a77f-2122c757aa77" />
+    <UnitTestResult executionId="c7c107a5-7666-43d2-9ce7-690926a08f59" testId="c332804c-c56e-983b-eeb1-d8b6ae953ee9" testName="ImportarUsuarios: 500 aún intenta parsear cuerpo con errores" computerName="ABELRAMIREZ" duration="00:00:00.0013200" startTime="2026-04-21T13:54:09.3745590-07:00" endTime="2026-04-21T13:54:09.3745591-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7c107a5-7666-43d2-9ce7-690926a08f59" />
+    <UnitTestResult executionId="b4e3bd96-ea65-4757-9c38-c1e7067b2b42" testId="0e56837c-8997-510b-08e9-455f82165bc7" testName="ValidarQR: 400 token expirado/inválido → null" computerName="ABELRAMIREZ" duration="00:00:00.0005467" startTime="2026-04-21T13:54:09.3715127-07:00" endTime="2026-04-21T13:54:09.3715128-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4e3bd96-ea65-4757-9c38-c1e7067b2b42" />
+    <UnitTestResult executionId="38813f78-5d9a-4624-9f2a-a5a39cc45627" testId="5274dfcc-7c0a-8c01-12b1-bd0780e08d70" testName="CrearCalificacionesBulk: 200 → true" computerName="ABELRAMIREZ" duration="00:00:00.0025106" startTime="2026-04-21T13:54:09.3742658-07:00" endTime="2026-04-21T13:54:09.3742658-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38813f78-5d9a-4624-9f2a-a5a39cc45627" />
+    <UnitTestResult executionId="c2895894-28fd-47be-b57a-3992c2ada23e" testId="c3c7400a-874f-089c-a338-f540b6691419" testName="GetAlumnos: deserializa colección" computerName="ABELRAMIREZ" duration="00:00:00.0530058" startTime="2026-04-21T13:54:09.3701474-07:00" endTime="2026-04-21T13:54:09.3701476-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2895894-28fd-47be-b57a-3992c2ada23e" />
+    <UnitTestResult executionId="c81c731d-0211-4ade-82df-5b58ee4d1698" testId="6f05b665-0c2e-1552-77e1-71617e9988f4" testName="Login: 401 → devuelve null (credenciales inválidas)" computerName="ABELRAMIREZ" duration="00:00:00.0007666" startTime="2026-04-21T13:54:09.3709591-07:00" endTime="2026-04-21T13:54:09.3709592-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c81c731d-0211-4ade-82df-5b58ee4d1698" />
+    <UnitTestResult executionId="86a5962f-b6e3-4110-9735-893fc69c3a2a" testId="d37250dc-ee91-2d42-505f-d47b9783f5f1" testName="ValidarQR: 200 → mensaje de asistencia registrada" computerName="ABELRAMIREZ" duration="00:00:00.0519147" startTime="2026-04-21T13:54:09.3422120-07:00" endTime="2026-04-21T13:54:09.3422121-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86a5962f-b6e3-4110-9735-893fc69c3a2a" />
+    <UnitTestResult executionId="72d37aa7-a55f-4c21-8386-e9187f117410" testId="a2bfd417-4507-a86b-e6ac-5d36f7fcefb0" testName="GetKardex: lista con % asistencia" computerName="ABELRAMIREZ" duration="00:00:00.0043740" startTime="2026-04-21T13:54:09.3788128-07:00" endTime="2026-04-21T13:54:09.3788128-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72d37aa7-a55f-4c21-8386-e9187f117410" />
+    <UnitTestResult executionId="add0ec88-c49f-413e-b5b3-989f90017581" testId="366c30b2-73d5-68fb-a5a0-82698e70af54" testName="GetAuditoria: deserializa eventos" computerName="ABELRAMIREZ" duration="00:00:00.0070988" startTime="2026-04-21T13:54:09.3768254-07:00" endTime="2026-04-21T13:54:09.3768255-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="add0ec88-c49f-413e-b5b3-989f90017581" />
+    <UnitTestResult executionId="360201d9-f144-4f6b-844f-206ea98f416b" testId="0173093a-7b58-5fb4-fea1-dfab1fef1416" testName="CrearCalificacionesBulk: 500 → false (tx abortada)" computerName="ABELRAMIREZ" duration="00:00:00.0052130" startTime="2026-04-21T13:54:09.3734088-07:00" endTime="2026-04-21T13:54:09.3734089-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="360201d9-f144-4f6b-844f-206ea98f416b" />
+    <UnitTestResult executionId="d4520d10-04f9-463d-955c-4b709ddff15e" testId="bcffd61d-4c7a-b8f9-bcc0-a2e7d96cd403" testName="GetHomeAlumno: 404 → null" computerName="ABELRAMIREZ" duration="00:00:00.0010536" startTime="2026-04-21T13:54:09.3732518-07:00" endTime="2026-04-21T13:54:09.3732519-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4520d10-04f9-463d-955c-4b709ddff15e" />
+    <UnitTestResult executionId="295478bf-d9cc-4bf6-aa1e-35700910e1ef" testId="4a1a5cdc-bc75-d89f-2265-70f61ffc3948" testName="GetGruposDocente: URL incluye docenteID" computerName="ABELRAMIREZ" duration="00:00:00.0079066" startTime="2026-04-21T13:54:09.3751431-07:00" endTime="2026-04-21T13:54:09.3751431-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="295478bf-d9cc-4bf6-aa1e-35700910e1ef" />
+    <UnitTestResult executionId="4a7ba97d-69ae-4635-a02e-8b8f07a7a795" testId="7d2b7f87-cd98-22c4-56e4-6b82ac14dc34" testName="Live: login con credenciales inválidas devuelve null (401)" computerName="ABELRAMIREZ" duration="00:00:00.0005825" startTime="2026-04-21T13:54:09.3379627-07:00" endTime="2026-04-21T13:54:09.3379629-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a7ba97d-69ae-4635-a02e-8b8f07a7a795">
+      <Output>
+        <ErrorInfo>
+          <Message>SKIP: RUN_LIVE_TESTS no está definido</Message>
+          <StackTrace>   at MauiApp1.IntegrationTests.Smoke.Skip.IfNot(Boolean condition, String reason) in C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs:line 44&#xD;
+   at MauiApp1.IntegrationTests.Smoke.LiveBackendSmokeTests.LoginFail_Live() in C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs:line 31&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b40b5182-f213-4ecf-a569-31f5ff54aa01" testId="e217832e-d012-abdb-7185-00493d072eee" testName="Register: 400 → false" computerName="ABELRAMIREZ" duration="00:00:00.0027482" startTime="2026-04-21T13:54:09.3735235-07:00" endTime="2026-04-21T13:54:09.3735235-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b40b5182-f213-4ecf-a569-31f5ff54aa01" />
+    <UnitTestResult executionId="f1a11e67-cdb9-409d-857c-c47a9194e240" testId="e145013e-3d9f-1162-0147-0c920bd0170b" testName="GetInscripcionesGrupo: URL y parseo de lista" computerName="ABELRAMIREZ" duration="00:00:00.0059755" startTime="2026-04-21T13:54:09.3789260-07:00" endTime="2026-04-21T13:54:09.3789260-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1a11e67-cdb9-409d-857c-c47a9194e240" />
+    <UnitTestResult executionId="4d04bad4-b864-4b71-8e25-98940fb7061f" testId="218eb97e-c5c4-15ef-f81d-a5caa2257a1e" testName="GetProximasAsistencias: usa query param limit" computerName="ABELRAMIREZ" duration="00:00:00.0042768" startTime="2026-04-21T13:54:09.3717825-07:00" endTime="2026-04-21T13:54:09.3717826-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d04bad4-b864-4b71-8e25-98940fb7061f" />
+    <UnitTestResult executionId="015de486-5ac2-4ee0-9be4-e11890604393" testId="1a8d8b02-d778-57fa-bd1a-a6616a7b48c9" testName="GenerarQR: 200 → devuelve token + imagen base64" computerName="ABELRAMIREZ" duration="00:00:00.0132932" startTime="2026-04-21T13:54:09.3770703-07:00" endTime="2026-04-21T13:54:09.3770704-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="015de486-5ac2-4ee0-9be4-e11890604393" />
+    <UnitTestResult executionId="857316b1-e8e1-4087-884e-c9f5b6fa7522" testId="5d990343-7ea2-54f2-592c-0b891bf4f6ef" testName="ImportarUsuarios: 200 → DTO con creados/omitidos" computerName="ABELRAMIREZ" duration="00:00:00.0518589" startTime="2026-04-21T13:54:09.3420538-07:00" endTime="2026-04-21T13:54:09.3420538-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="857316b1-e8e1-4087-884e-c9f5b6fa7522" />
+    <UnitTestResult executionId="3ca42583-54c4-4034-a52c-0a9cd0bd57a9" testId="1f4a1cc7-05dd-6388-e239-588796583ed7" testName="Login: 200 → devuelve LoginResponse poblado" computerName="ABELRAMIREZ" duration="00:00:00.0050105" startTime="2026-04-21T13:54:09.3786786-07:00" endTime="2026-04-21T13:54:09.3786787-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ca42583-54c4-4034-a52c-0a9cd0bd57a9" />
+    <UnitTestResult executionId="d85c7b57-a8d7-497d-bfa2-7cdb365912f3" testId="0456bb39-2757-89ac-7150-29f7d942954e" testName="GetAuditoria: arma query con tipo/desde/hasta/limit" computerName="ABELRAMIREZ" duration="00:00:00.0019327" startTime="2026-04-21T13:54:09.3782482-07:00" endTime="2026-04-21T13:54:09.3782483-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d85c7b57-a8d7-497d-bfa2-7cdb365912f3" />
+    <UnitTestResult executionId="bcd078d9-7c89-4ed6-8b09-779c7a3a2419" testId="3a2fb610-6782-4e37-4312-d49a9f038e09" testName="GetGrupos: lista con Materia anidada" computerName="ABELRAMIREZ" duration="00:00:00.0022503" startTime="2026-04-21T13:54:09.3791799-07:00" endTime="2026-04-21T13:54:09.3791799-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcd078d9-7c89-4ed6-8b09-779c7a3a2419" />
+    <UnitTestResult executionId="a67b1f68-9ff9-4e17-809b-5e6f9e3658b9" testId="9d4fc9a2-97ef-b3be-60de-cb18c3cb5ed6" testName="SetBearerToken: inyecta header Authorization en siguientes requests" computerName="ABELRAMIREZ" duration="00:00:00.0069881" startTime="2026-04-21T13:54:09.3761939-07:00" endTime="2026-04-21T13:54:09.3761940-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a67b1f68-9ff9-4e17-809b-5e6f9e3658b9">
+      <Output>
+        <ErrorInfo>
+          <Message>System.Text.Json.JsonException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.&#xD;
+---- System.Text.Json.JsonReaderException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.</Message>
+          <StackTrace>   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)&#xD;
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, T&amp; value, JsonSerializerOptions options, ReadStack&amp; state)&#xD;
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack, T&amp; value)&#xD;
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)&#xD;
+   at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, JsonSerializerOptions options, CancellationToken cancellationToken)&#xD;
+   at MauiApp1.IntegrationTests.Infrastructure.TestableApiClient.GetAlumnos() in C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Infrastructure\TestableApiClient.cs:line 54&#xD;
+   at MauiApp1.IntegrationTests.Api.AuthApiTests.SetBearerToken_AttachesHeader() in C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Api\AuthApiTests.cs:line 72&#xD;
+--- End of stack trace from previous location ---&#xD;
+----- Inner Stack Trace -----&#xD;
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)&#xD;
+   at System.Text.Json.Utf8JsonReader.Read()&#xD;
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, T&amp; value, JsonSerializerOptions options, ReadStack&amp; state)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e483f72-109d-4e67-825a-237c0718408b" testId="9c2c55c8-2895-0455-dfaf-faa380ebae6e" testName="Login: envía body JSON con email y password" computerName="ABELRAMIREZ" duration="00:00:00.0535298" startTime="2026-04-21T13:54:09.3706350-07:00" endTime="2026-04-21T13:54:09.3706351-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e483f72-109d-4e67-825a-237c0718408b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetHorarioEstudiante: ruta y lista" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="090b17ef-7986-6fd5-0bf9-93399d4d123c">
+      <Execution id="d6aff230-95b4-4d35-9d45-906abea4bcf7" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.StudentApiTests" name="GetHorarioEstudiante_Ok" />
+    </UnitTest>
+    <UnitTest name="Register: 201 → true" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="982f9b7d-11b6-09cb-3aed-09ff02b3d78c">
+      <Execution id="38061b74-a5ba-46b1-a06c-550fa3e21056" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.AuthApiTests" name="Register_Ok" />
+    </UnitTest>
+    <UnitTest name="SetBearerToken: inyecta header Authorization en siguientes requests" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="9d4fc9a2-97ef-b3be-60de-cb18c3cb5ed6">
+      <Execution id="a67b1f68-9ff9-4e17-809b-5e6f9e3658b9" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.AuthApiTests" name="SetBearerToken_AttachesHeader" />
+    </UnitTest>
+    <UnitTest name="Live: GET /api/materias responde 200 con JSON array" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="b2401b24-e302-a539-6c15-50b8b37ba41c">
+      <Execution id="1cbd2676-773b-42c3-95bc-90cd34aa28ce" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Smoke.LiveBackendSmokeTests" name="Materias_Live_Ok" />
+    </UnitTest>
+    <UnitTest name="Live: login con credenciales inválidas devuelve null (401)" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="7d2b7f87-cd98-22c4-56e4-6b82ac14dc34">
+      <Execution id="4a7ba97d-69ae-4635-a02e-8b8f07a7a795" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Smoke.LiveBackendSmokeTests" name="LoginFail_Live" />
+    </UnitTest>
+    <UnitTest name="GetMaterias: 200 → lista parseada" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="f9a4e576-76cf-2b88-0b2c-80b08ea9e70b">
+      <Execution id="8bc37fdb-bfdc-4837-a332-e2e7a9d71be3" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.CatalogApiTests" name="GetMaterias_Ok" />
+    </UnitTest>
+    <UnitTest name="GetGruposDocente: URL incluye docenteID" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="4a1a5cdc-bc75-d89f-2265-70f61ffc3948">
+      <Execution id="295478bf-d9cc-4bf6-aa1e-35700910e1ef" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.CatalogApiTests" name="GetGruposDocente_UrlOk" />
+    </UnitTest>
+    <UnitTest name="GetAuditoria: arma query con tipo/desde/hasta/limit" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="0456bb39-2757-89ac-7150-29f7d942954e">
+      <Execution id="d85c7b57-a8d7-497d-bfa2-7cdb365912f3" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.TeacherAdminApiTests" name="Auditoria_QueryBuilt" />
+    </UnitTest>
+    <UnitTest name="GetProximasAsistencias: usa query param limit" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="218eb97e-c5c4-15ef-f81d-a5caa2257a1e">
+      <Execution id="4d04bad4-b864-4b71-8e25-98940fb7061f" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.StudentApiTests" name="GetProximas_UsesLimit" />
+    </UnitTest>
+    <UnitTest name="CrearCalificacionesBulk: 200 → true" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="5274dfcc-7c0a-8c01-12b1-bd0780e08d70">
+      <Execution id="38813f78-5d9a-4624-9f2a-a5a39cc45627" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.TeacherAdminApiTests" name="Bulk_Ok" />
+    </UnitTest>
+    <UnitTest name="ValidarQR: incluye lat/long en body cuando se provee" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="10f94e30-692d-3404-0acf-7f53b3f48927">
+      <Execution id="b13c7e01-2ac0-481f-9a65-63ace4091989" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.QrApiTests" name="ValidarQR_SendsCoords" />
+    </UnitTest>
+    <UnitTest name="GetGrupos: lista con Materia anidada" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="3a2fb610-6782-4e37-4312-d49a9f038e09">
+      <Execution id="bcd078d9-7c89-4ed6-8b09-779c7a3a2419" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.CatalogApiTests" name="GetGrupos_Ok" />
+    </UnitTest>
+    <UnitTest name="GetInscripcionesGrupo: URL y parseo de lista" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="e145013e-3d9f-1162-0147-0c920bd0170b">
+      <Execution id="f1a11e67-cdb9-409d-857c-c47a9194e240" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.CatalogApiTests" name="GetInscripciones_Ok" />
+    </UnitTest>
+    <UnitTest name="ValidarQR: 200 → mensaje de asistencia registrada" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="d37250dc-ee91-2d42-505f-d47b9783f5f1">
+      <Execution id="86a5962f-b6e3-4110-9735-893fc69c3a2a" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.QrApiTests" name="ValidarQR_Ok" />
+    </UnitTest>
+    <UnitTest name="Login: 401 → devuelve null (credenciales inválidas)" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="6f05b665-0c2e-1552-77e1-71617e9988f4">
+      <Execution id="c81c731d-0211-4ade-82df-5b58ee4d1698" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.AuthApiTests" name="Login_401_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="Register: 400 → false" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="e217832e-d012-abdb-7185-00493d072eee">
+      <Execution id="b40b5182-f213-4ecf-a569-31f5ff54aa01" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.AuthApiTests" name="Register_BadRequest" />
+    </UnitTest>
+    <UnitTest name="GetMaterias: 500 → lista vacía (no null)" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="b5245f49-1bf1-1714-cb9b-0eee3509abc3">
+      <Execution id="6680576d-8780-4052-8f1e-04b071f94e6f" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.CatalogApiTests" name="GetMaterias_Error" />
+    </UnitTest>
+    <UnitTest name="Login: envía body JSON con email y password" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="9c2c55c8-2895-0455-dfaf-faa380ebae6e">
+      <Execution id="7e483f72-109d-4e67-825a-237c0718408b" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.AuthApiTests" name="Login_BodyIsCorrect" />
+    </UnitTest>
+    <UnitTest name="GetDocentes: deserializa gruposAsignados" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="9e05e5f0-c45c-d9fd-7adc-a335b624d9d5">
+      <Execution id="72192303-4a5d-4c81-a77f-2122c757aa77" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.CatalogApiTests" name="GetDocentes_Ok" />
+    </UnitTest>
+    <UnitTest name="GetHomeAlumno: 404 → null" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="bcffd61d-4c7a-b8f9-bcc0-a2e7d96cd403">
+      <Execution id="d4520d10-04f9-463d-955c-4b709ddff15e" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.StudentApiTests" name="GetHomeAlumno_NotFound" />
+    </UnitTest>
+    <UnitTest name="CrearCalificacionesBulk: 500 → false (tx abortada)" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="0173093a-7b58-5fb4-fea1-dfab1fef1416">
+      <Execution id="360201d9-f144-4f6b-844f-206ea98f416b" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.TeacherAdminApiTests" name="Bulk_Error" />
+    </UnitTest>
+    <UnitTest name="GenerarQR: 200 → devuelve token + imagen base64" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="1a8d8b02-d778-57fa-bd1a-a6616a7b48c9">
+      <Execution id="015de486-5ac2-4ee0-9be4-e11890604393" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.QrApiTests" name="GenerarQR_Ok" />
+    </UnitTest>
+    <UnitTest name="GetHomeAlumno: parsea estructura agregada" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="465da894-7885-3eb0-945a-3b6a1b7b8b7a">
+      <Execution id="63e75cd1-9b32-4575-9987-228270cdc35c" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.StudentApiTests" name="GetHomeAlumno_Ok" />
+    </UnitTest>
+    <UnitTest name="GenerarQR: 403 sin auth → null" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="ca33ca69-0914-c3f9-f012-c8377633343d">
+      <Execution id="9c067294-1471-4b82-aefb-2f03c74c401c" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.QrApiTests" name="GenerarQR_Forbidden" />
+    </UnitTest>
+    <UnitTest name="GetKardex: lista con % asistencia" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="a2bfd417-4507-a86b-e6ac-5d36f7fcefb0">
+      <Execution id="72d37aa7-a55f-4c21-8386-e9187f117410" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.StudentApiTests" name="GetKardex_Ok" />
+    </UnitTest>
+    <UnitTest name="GetAlumnos: deserializa colección" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="c3c7400a-874f-089c-a338-f540b6691419">
+      <Execution id="c2895894-28fd-47be-b57a-3992c2ada23e" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.CatalogApiTests" name="GetAlumnos_Ok" />
+    </UnitTest>
+    <UnitTest name="GetAuditoria: deserializa eventos" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="366c30b2-73d5-68fb-a5a0-82698e70af54">
+      <Execution id="add0ec88-c49f-413e-b5b3-989f90017581" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.TeacherAdminApiTests" name="Auditoria_Deserializes" />
+    </UnitTest>
+    <UnitTest name="ImportarUsuarios: 500 aún intenta parsear cuerpo con errores" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="c332804c-c56e-983b-eeb1-d8b6ae953ee9">
+      <Execution id="c7c107a5-7666-43d2-9ce7-690926a08f59" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.TeacherAdminApiTests" name="Import_ErrorWithBody" />
+    </UnitTest>
+    <UnitTest name="ValidarQR: 400 token expirado/inválido → null" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="0e56837c-8997-510b-08e9-455f82165bc7">
+      <Execution id="b4e3bd96-ea65-4757-9c38-c1e7067b2b42" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.QrApiTests" name="ValidarQR_Invalid" />
+    </UnitTest>
+    <UnitTest name="Login: 200 → devuelve LoginResponse poblado" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="1f4a1cc7-05dd-6388-e239-588796583ed7">
+      <Execution id="3ca42583-54c4-4034-a52c-0a9cd0bd57a9" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.AuthApiTests" name="Login_200_ReturnsResponse" />
+    </UnitTest>
+    <UnitTest name="ImportarUsuarios: 200 → DTO con creados/omitidos" storage="c:\users\abel\source\repos\tests\mauiapp1.integrationtests\bin\debug\net9.0\mauiapp1.integrationtests.dll" id="5d990343-7ea2-54f2-592c-0b891bf4f6ef">
+      <Execution id="857316b1-e8e1-4087-884e-c9f5b6fa7522" />
+      <TestMethod codeBase="C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\bin\Debug\net9.0\MauiApp1.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MauiApp1.IntegrationTests.Api.TeacherAdminApiTests" name="Import_Ok" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="090b17ef-7986-6fd5-0bf9-93399d4d123c" executionId="d6aff230-95b4-4d35-9d45-906abea4bcf7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10f94e30-692d-3404-0acf-7f53b3f48927" executionId="b13c7e01-2ac0-481f-9a65-63ace4091989" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="982f9b7d-11b6-09cb-3aed-09ff02b3d78c" executionId="38061b74-a5ba-46b1-a06c-550fa3e21056" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="465da894-7885-3eb0-945a-3b6a1b7b8b7a" executionId="63e75cd1-9b32-4575-9987-228270cdc35c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9a4e576-76cf-2b88-0b2c-80b08ea9e70b" executionId="8bc37fdb-bfdc-4837-a332-e2e7a9d71be3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca33ca69-0914-c3f9-f012-c8377633343d" executionId="9c067294-1471-4b82-aefb-2f03c74c401c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2401b24-e302-a539-6c15-50b8b37ba41c" executionId="1cbd2676-773b-42c3-95bc-90cd34aa28ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5245f49-1bf1-1714-cb9b-0eee3509abc3" executionId="6680576d-8780-4052-8f1e-04b071f94e6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e05e5f0-c45c-d9fd-7adc-a335b624d9d5" executionId="72192303-4a5d-4c81-a77f-2122c757aa77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c332804c-c56e-983b-eeb1-d8b6ae953ee9" executionId="c7c107a5-7666-43d2-9ce7-690926a08f59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e56837c-8997-510b-08e9-455f82165bc7" executionId="b4e3bd96-ea65-4757-9c38-c1e7067b2b42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5274dfcc-7c0a-8c01-12b1-bd0780e08d70" executionId="38813f78-5d9a-4624-9f2a-a5a39cc45627" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3c7400a-874f-089c-a338-f540b6691419" executionId="c2895894-28fd-47be-b57a-3992c2ada23e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f05b665-0c2e-1552-77e1-71617e9988f4" executionId="c81c731d-0211-4ade-82df-5b58ee4d1698" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d37250dc-ee91-2d42-505f-d47b9783f5f1" executionId="86a5962f-b6e3-4110-9735-893fc69c3a2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2bfd417-4507-a86b-e6ac-5d36f7fcefb0" executionId="72d37aa7-a55f-4c21-8386-e9187f117410" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="366c30b2-73d5-68fb-a5a0-82698e70af54" executionId="add0ec88-c49f-413e-b5b3-989f90017581" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0173093a-7b58-5fb4-fea1-dfab1fef1416" executionId="360201d9-f144-4f6b-844f-206ea98f416b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcffd61d-4c7a-b8f9-bcc0-a2e7d96cd403" executionId="d4520d10-04f9-463d-955c-4b709ddff15e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a1a5cdc-bc75-d89f-2265-70f61ffc3948" executionId="295478bf-d9cc-4bf6-aa1e-35700910e1ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d2b7f87-cd98-22c4-56e4-6b82ac14dc34" executionId="4a7ba97d-69ae-4635-a02e-8b8f07a7a795" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e217832e-d012-abdb-7185-00493d072eee" executionId="b40b5182-f213-4ecf-a569-31f5ff54aa01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e145013e-3d9f-1162-0147-0c920bd0170b" executionId="f1a11e67-cdb9-409d-857c-c47a9194e240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="218eb97e-c5c4-15ef-f81d-a5caa2257a1e" executionId="4d04bad4-b864-4b71-8e25-98940fb7061f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a8d8b02-d778-57fa-bd1a-a6616a7b48c9" executionId="015de486-5ac2-4ee0-9be4-e11890604393" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d990343-7ea2-54f2-592c-0b891bf4f6ef" executionId="857316b1-e8e1-4087-884e-c9f5b6fa7522" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f4a1cc7-05dd-6388-e239-588796583ed7" executionId="3ca42583-54c4-4034-a52c-0a9cd0bd57a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0456bb39-2757-89ac-7150-29f7d942954e" executionId="d85c7b57-a8d7-497d-bfa2-7cdb365912f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a2fb610-6782-4e37-4312-d49a9f038e09" executionId="bcd078d9-7c89-4ed6-8b09-779c7a3a2419" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d4fc9a2-97ef-b3be-60de-cb18c3cb5ed6" executionId="a67b1f68-9ff9-4e17-809b-5e6f9e3658b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c2c55c8-2895-0455-dfaf-faa380ebae6e" executionId="7e483f72-109d-4e67-825a-237c0718408b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="31" executed="31" passed="28" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.15)&#xD;
+[xUnit.net 00:00:00.10]   Discovering: MauiApp1.IntegrationTests&#xD;
+[xUnit.net 00:00:00.14]   Discovered:  MauiApp1.IntegrationTests&#xD;
+[xUnit.net 00:00:00.15]   Starting:    MauiApp1.IntegrationTests&#xD;
+[xUnit.net 00:00:00.23]       SKIP: RUN_LIVE_TESTS no está definido&#xD;
+[xUnit.net 00:00:00.23]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.23]         C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs(44,0): at MauiApp1.IntegrationTests.Smoke.Skip.IfNot(Boolean condition, String reason)&#xD;
+[xUnit.net 00:00:00.23]         C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs(22,0): at MauiApp1.IntegrationTests.Smoke.LiveBackendSmokeTests.Materias_Live_Ok()&#xD;
+[xUnit.net 00:00:00.23]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.24]       SKIP: RUN_LIVE_TESTS no está definido&#xD;
+[xUnit.net 00:00:00.24]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.24]         C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs(44,0): at MauiApp1.IntegrationTests.Smoke.Skip.IfNot(Boolean condition, String reason)&#xD;
+[xUnit.net 00:00:00.24]         C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Smoke\LiveBackendSmokeTests.cs(31,0): at MauiApp1.IntegrationTests.Smoke.LiveBackendSmokeTests.LoginFail_Live()&#xD;
+[xUnit.net 00:00:00.24]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.28]       System.Text.Json.JsonException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.&#xD;
+[xUnit.net 00:00:00.28]       ---- System.Text.Json.JsonReaderException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.&#xD;
+[xUnit.net 00:00:00.28]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.28]            at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)&#xD;
+[xUnit.net 00:00:00.28]            at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, T&amp; value, JsonSerializerOptions options, ReadStack&amp; state)&#xD;
+[xUnit.net 00:00:00.28]            at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack, T&amp; value)&#xD;
+[xUnit.net 00:00:00.28]            at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:00.28]            at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, JsonSerializerOptions options, CancellationToken cancellationToken)&#xD;
+[xUnit.net 00:00:00.28]         C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Infrastructure\TestableApiClient.cs(54,0): at MauiApp1.IntegrationTests.Infrastructure.TestableApiClient.GetAlumnos()&#xD;
+[xUnit.net 00:00:00.28]         C:\Users\Abel\Source\Repos\tests\MauiApp1.IntegrationTests\Api\AuthApiTests.cs(72,0): at MauiApp1.IntegrationTests.Api.AuthApiTests.SetBearerToken_AttachesHeader()&#xD;
+[xUnit.net 00:00:00.28]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.28]         ----- Inner Stack Trace -----&#xD;
+[xUnit.net 00:00:00.28]            at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)&#xD;
+[xUnit.net 00:00:00.28]            at System.Text.Json.Utf8JsonReader.Read()&#xD;
+[xUnit.net 00:00:00.28]            at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, T&amp; value, JsonSerializerOptions options, ReadStack&amp; state)&#xD;
+[xUnit.net 00:00:00.29]   Finished:    MauiApp1.IntegrationTests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="ABELRAMIREZ" outcome="Error" timestamp="2026-04-21T13:54:09.3251074-07:00">
+        <Text>[xUnit.net 00:00:00.23]     Live: GET /api/materias responde 200 con JSON array [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="ABELRAMIREZ" outcome="Error" timestamp="2026-04-21T13:54:09.3379404-07:00">
+        <Text>[xUnit.net 00:00:00.24]     Live: login con credenciales inválidas devuelve null (401) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="ABELRAMIREZ" outcome="Error" timestamp="2026-04-21T13:54:09.4329320-07:00">
+        <Text>[xUnit.net 00:00:00.28]     SetBearerToken: inyecta header Authorization en siguientes requests [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+    <CollectorDataEntries>
+      <Collector agentName="ABELRAMIREZ" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="ABELRAMIREZ\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
