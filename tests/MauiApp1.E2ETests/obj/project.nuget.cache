@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "0HkvV1ybjVU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\junio\\OneDrive\\Desktop\\2to2\\tests\\MauiApp1.E2ETests\\MauiApp1.E2ETests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\junio\\.nuget\\packages\\appium.webdriver\\5.1.0\\appium.webdriver.5.1.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\fluentassertions\\6.12.2\\fluentassertions.6.12.2.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\microsoft.net.test.sdk\\17.11.1\\microsoft.net.test.sdk.17.11.1.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.11.1\\microsoft.testplatform.objectmodel.17.11.1.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\microsoft.testplatform.testhost\\17.11.1\\microsoft.testplatform.testhost.17.11.1.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\nunit.analyzers\\4.3.0\\nunit.analyzers.4.3.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\selenium.support\\4.24.0\\selenium.support.4.24.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\selenium.webdriver\\4.24.0\\selenium.webdriver.4.24.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\system.drawing.common\\8.0.7\\system.drawing.common.8.0.7.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
